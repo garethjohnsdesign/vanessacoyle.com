@@ -2,7 +2,7 @@
 title: Terms
 date: 2015-11-11 00:00:00 Z
 permalink: "/terms/"
-position: 8
+position: 7
 layout: page
 ---
 
