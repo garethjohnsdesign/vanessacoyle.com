@@ -1,6 +1,6 @@
 ---
 title: Celebrity
-position: 1
+position: 2
 layout: celebrity
 ---
 
