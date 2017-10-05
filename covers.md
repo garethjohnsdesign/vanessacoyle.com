@@ -1,7 +1,7 @@
 ---
 title: Covers
 date: 2016-12-15 00:00:00 Z
-position: 0
+position: 5
 images:
 - "/uploads/this-is-not-a-mountain-01.jpg"
 - "/uploads/this-is-not-a-mountain-02.jpg"
