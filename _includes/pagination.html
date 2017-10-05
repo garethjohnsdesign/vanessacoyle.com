@@ -1,0 +1,12 @@
+{% if page.previous.url %}
+<div class="row expanded">
+  <div class="small-12 columns text-center">
+    <a href="{{page.previous.url}}">
+      <div class="pagination">
+        <p>Next</p>
+        <p>{{page.previous.title}}</p>
+      </div>
+    </a>
+  </div>
+</div>
+{% endif %}

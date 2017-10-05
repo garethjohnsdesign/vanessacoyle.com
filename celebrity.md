@@ -1,0 +1,5 @@
+---
+title: Celebrity
+layout: celebrity
+---
+

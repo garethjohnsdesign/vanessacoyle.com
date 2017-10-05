@@ -1,0 +1,179 @@
+//  Table of Contents:
+//
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Home
+
+// 1. Mixins
+// ---------
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+
+// 2. Global
+// ---------
+
+body {  
+  cursor: default;
+}
+
+body {
+  opacity: 1;
+  transition: $primary-transition;
+}
+
+body.fade-out {
+  opacity: 0;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $primary-color;
+  color: $secondary-color;
+}
+
+:focus {
+  outline: 0;
+}
+
+[data-aos] {
+overflow: hidden;
+}
+
+// 3. Typography
+// -------------
+
+a {
+  transition: $primary-transition;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+.menu .menu-text {
+  font-weight: $global-weight-normal;
+}
+
+// X. Pages
+// ------
+
+.page {
+  transition: $primary-transition;
+/*
+  @include breakpoint(small) {
+    padding: 1rem 1rem;
+  }
+  @include breakpoint(medium) {
+    padding: 2rem 2rem;
+  }
+  @include breakpoint(large) {
+    padding: 2.5rem 2.5rem;
+  }
+  @include breakpoint(xlarge) {
+    padding: 3rem 3rem;
+  }
+*/
+}
+
+// X. Header
+// ------
+
+.header {
+  text-transform: uppercase;
+  font-family: $secondary-font-family;
+  letter-spacing: 0.5rem;
+  font-size: 1.75rem;
+}
+
+// X. Navigation
+// ------
+
+nav {
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+}
+
+.navigation--mobile {
+  z-index: 1;
+  position: fixed;
+  background: $color--white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 0;
+  transition: $primary-transition;
+  visibility: hidden;
+  font-family: $header-font-family;
+  font-size: 1.5rem;
+
+  &.open {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  a {
+    color: $color--black;
+    padding: 1rem 0rem;
+  }
+  
+  a:hover {
+    color: $color--medium-gray;
+  }
+  
+  .menu .active>a {
+    color: black;
+  }
+  
+  .hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+    background-color: $color--white;
+  } 
+}
+
+.navigation__small {
+  z-index: 3;
+}
+
+// 7. Projects
+// ----------
+    
+.projects img:hover {
+  filter: saturate(0%) brightness(80%); 
+}
+    
+.projects img {
+  transition: $primary-transition;
+}
+
+// X. Footer
+// ---------
+
+.footer__socials {
+  @include links ($color--medium-gray, $color--black)
+}
+
+.footer__links {
+  @include links ($color--medium-gray, $color--black)
+}

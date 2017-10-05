@@ -1,0 +1,48 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html class="no-js" lang="en" dir="ltr">
+
+<!-- Head -->
+{% include head.html %}
+<!-- End Head -->
+
+<body class="{{page.layout | slugify}} page">
+  
+{% if page.url == "/" %}
+<script>document.body.className += ' fade-out';</script>
+{% endif %}
+
+<!-- Mobile Navigation -->  
+{% include navigation--mobile.html %}
+<!-- End Mobile Navigation --> 
+
+<div class="grid-y align-justify" style="height: 100vh;">
+  <div class="shrink cell">
+  {% include header.html %}
+  {% include navigation.html %}
+  </div>
+  <div class="shrink cell">
+  {{content}}
+  </div>
+  <div class="shrink cell">
+  {% include footer.html %}
+  </div>
+</div>
+
+
+<!-- Scripts -->
+{% include scripts.html %}
+<!-- End Scripts -->
+
+<!-- Google Analytics -->
+{% if site.analytics %}
+{% include analytics.html %}
+{% endif %}
+<!-- End Google Analytics -->
+
+</body>
+
+</html>
