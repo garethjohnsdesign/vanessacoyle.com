@@ -3,16 +3,17 @@ title: Covers
 date: 2016-12-15 00:00:00 Z
 position: 3
 images:
-- "/uploads/this-is-not-a-mountain-01.jpg"
-- "/uploads/this-is-not-a-mountain-02.jpg"
-- "/uploads/this-is-not-a-mountain-03.jpg"
-- "/uploads/this-is-not-a-mountain-04.jpg"
-- "/uploads/this-is-not-a-mountain-05.jpg"
-- "/uploads/this-is-not-a-mountain-06.jpg"
-- "/uploads/this-is-not-a-mountain-07.jpg"
-- "/uploads/this-is-not-a-mountain-08.jpg"
-- "/uploads/this-is-not-a-mountain-09.jpg"
-- "/uploads/this-is-not-a-mountain-10.jpg"
+- "/uploads/cover-under-the-influence-ss2015.jpg"
+- "/uploads/cover-jan-2011.jpg"
+- "/uploads/cover-march-2011.jpg"
+- "/uploads/cover-liv.jpg"
+- "/uploads/cover-jan-2010.jpg"
+- "/uploads/cover-december-2011.jpg"
+- "/uploads/cover-jan-2009.jpg"
+- "/uploads/cover-dec-2009.jpg"
+- "/uploads/cover-games.jpg"
+- "/uploads/cover-july-2009.jpg"
+- "/uploads/cover-feb-2011-subs.jpg"
 layout: covers
 ---
 
