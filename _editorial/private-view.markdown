@@ -15,6 +15,7 @@ images:
 - "/uploads/private-view-09.jpg"
 publication: Under the Influence
 photographer: Janneke Van der Hagen
-is-featured:
+is-featured: 
 layout: project
 ---
+

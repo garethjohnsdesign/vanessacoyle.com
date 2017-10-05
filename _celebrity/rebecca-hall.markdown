@@ -12,6 +12,7 @@ images:
 - "/uploads/rebecca-hall-06.jpg"
 publication: Harper's Bazaar UK
 photographer: Alexi Lubomirski
-is-featured:
+is-featured: 
 layout: project
 ---
+

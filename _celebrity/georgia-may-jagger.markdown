@@ -10,6 +10,7 @@ images:
 - "/uploads/georgia-may-jagger-04.jpg"
 publication: Harper's Bazaar UK
 photographer: Alexi Lubomirski
-is-featured:
+is-featured: 
 layout: project
 ---
+

@@ -16,6 +16,7 @@ images:
 - "/uploads/st-vincent-10.jpg"
 publication: Rolling Stone
 photographer: Agnes Lloyd-Platt
-is-featured:
+is-featured: 
 layout: project
 ---
+

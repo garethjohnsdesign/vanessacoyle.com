@@ -11,6 +11,7 @@ images:
 - "/uploads/scarlett-johansson-05.jpg"
 publication: Harper's Bazaar UK
 photographer: Alexi Lubomirski
-is-featured:
+is-featured: 
 layout: project
 ---
+

@@ -23,3 +23,4 @@ photographer: Reto Schmid
 is-featured: true
 layout: project
 ---
+

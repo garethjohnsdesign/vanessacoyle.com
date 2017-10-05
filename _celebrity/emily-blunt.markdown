@@ -10,6 +10,7 @@ images:
 - "/uploads/emily-blunt-04.jpg"
 publication: Harper's Bazaar UK
 photographer: Paola Kudacki
-is-featured:
+is-featured: 
 layout: project
 ---
+

@@ -14,6 +14,7 @@ images:
 - "/uploads/wax-08.jpg"
 publication: Exhibition Magazine
 photographer: Nadav Kander
-is-featured:
+is-featured: 
 layout: project
 ---
+

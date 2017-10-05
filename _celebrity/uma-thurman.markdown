@@ -10,6 +10,7 @@ images:
 - "/uploads/uma-thurman-04.jpg"
 publication: Harper's Bazaar UK
 photographer: Alexi Lubomirski
-is-featured:
+is-featured: 
 layout: project
 ---
+

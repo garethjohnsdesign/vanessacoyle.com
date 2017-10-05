@@ -16,6 +16,7 @@ images:
 - "/uploads/thirty-seven-point-five-10.jpg"
 publication: Under The Influence
 photographer: Laurence Ellis
-is-featured:
+is-featured: 
 layout: project
 ---
+

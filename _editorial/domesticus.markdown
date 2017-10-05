@@ -11,8 +11,9 @@ images:
 - "/uploads/domesticus-05.jpg"
 - "/uploads/domesticus-06.jpg"
 - "/uploads/domesticus-07.jpg"
-publication:
+publication: 
 photographer: Janneke van der Hagen
 is-featured: true
 layout: project
 ---
+

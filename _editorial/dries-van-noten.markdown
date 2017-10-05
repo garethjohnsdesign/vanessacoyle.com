@@ -17,6 +17,7 @@ images:
 - "/uploads/dries-van-noten-11.jpg"
 publication: Under The Influence
 photographer: Adrian Samson
-is-featured:
+is-featured: 
 layout: project
 ---
+

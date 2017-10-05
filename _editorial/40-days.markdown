@@ -15,6 +15,7 @@ images:
 - "/uploads/40-days-09.jpg"
 publication: Under the Influence
 photographer: Janneke van der Hagen
-is-featured:
+is-featured: 
 layout: project
 ---
+
