@@ -1,7 +1,7 @@
 ---
 title: Georgia May Jagger
 date: 2016-12-15 00:00:00 Z
-position: 2
+position: 3
 image: "/uploads/georgia-may-jagger-feature.jpg"
 images:
 - "/uploads/georgia-may-jagger-01.jpg"
