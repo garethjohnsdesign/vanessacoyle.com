@@ -1,7 +1,7 @@
 ---
 title: Wax
 date: 2016-12-15 00:00:00 Z
-position: 2
+position: 4
 image: "/uploads/wax-feature.jpg"
 images:
 - "/uploads/wax-01.jpg"
