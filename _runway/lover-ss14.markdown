@@ -1,7 +1,7 @@
 ---
 title: Lover — Spring / Summer 2014
 date: 2016-12-15 00:00:00 Z
-position: 6
+position: 7
 image: "/uploads/lover-ss14-feature.jpg"
 images:
 - "/uploads/lover-ss14-01.jpg"
