@@ -7027,7 +7027,7 @@ Single-colored icons can be modified like so:
 ========================================== */
 .icon-arrow_forward {
   font-size: 2rem;
-  fill: white;
+  fill: #111111;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_forward:hover {
@@ -7035,10 +7035,18 @@ Single-colored icons can be modified like so:
 
 .icon-arrow_back {
   font-size: 2rem;
-  fill: white;
+  fill: #fefefe;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_back:hover {
+  fill: #a0a0a0; }
+
+.home .icon-arrow_forward {
+  font-size: 2rem;
+  fill: #fefefe;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.home .icon-arrow_forward:hover {
   fill: #a0a0a0; }
 
 @font-face {
@@ -7804,7 +7812,7 @@ img {
 
 ::selection {
   background: #a0a0a0;
-  color: #767676; }
+  color: #111111; }
 
 :focus {
   outline: 0; }
@@ -7918,6 +7926,12 @@ nav {
       padding-bottom: 2rem;
       padding-left: 2rem;
       padding-right: 2rem; } }
+
+.project h2 {
+  color: #a0a0a0; }
+
+.project-runway h2 {
+  color: #a0a0a0; }
 
 .info {
   padding-top: 2rem; }

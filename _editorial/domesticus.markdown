@@ -13,7 +13,7 @@ images:
 - "/uploads/domesticus-07.jpg"
 publication: 
 photographer: Janneke van der Hagen
-is-featured: true
+is-featured:
 layout: project
 ---
 

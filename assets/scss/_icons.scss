@@ -15,9 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
+
 .icon-arrow_forward {
   font-size: 2rem;
-  fill: white;
+  fill: $black;
   transition: $primary-transition;
 }
 
@@ -27,10 +28,21 @@ Single-colored icons can be modified like so:
 
 .icon-arrow_back {
   font-size: 2rem;
-  fill: white;
+  fill: $white;
   transition: $primary-transition;
 }
 
 .icon-arrow_back:hover {
   fill: $anchor-color-hover;
+}
+
+
+.home .icon-arrow_forward {
+  font-size: 2rem;
+  fill: $white;
+  transition: $primary-transition;
+}
+
+.home .icon-arrow_forward:hover {
+  fill: $anchor-color-hover
 }

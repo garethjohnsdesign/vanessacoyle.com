@@ -34,7 +34,6 @@ images:
 - "/uploads/julien-macdonald-aw14-28.jpg"
 - "/uploads/julien-macdonald-aw14-29.jpg"
 - "/uploads/julien-macdonald-aw14-30.jpg"
-- "/uploads/julien-macdonald-aw14-31.jpg"
 client: Julien Macdonald
 season: Autumn / Winter 2014
 layout: project-runway
