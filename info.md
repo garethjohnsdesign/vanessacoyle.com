@@ -1,6 +1,6 @@
 ---
 title: Info
-position: 5
+position: 6
 studio-text: "[07872 837 416](tel:07872 837 416)  \n[hello@vanessacoyle.com](mailto:hello@vanessacoyle.com)
   \ "
 representation-text: "[The Artist Group](http://www.artist-group.net)  \n[njo@artist-group.net](http://www.artist-group.net)
