@@ -8,6 +8,9 @@ collections:
   editorial:
     title: Editorial
     output: true
+  runway:
+    title: Runway
+    output: true
   posts:
     title: Posts
     output: true

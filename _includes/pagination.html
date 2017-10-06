@@ -1,9 +1,9 @@
 {% if page.previous.url %}
-<div class="row expanded">
-  <div class="small-12 columns text-center">
+<div class="grid-x">
+  <div class="small-12 cell text-center">
     <a href="{{page.previous.url}}">
       <div class="pagination">
-        <p>Next</p>
+        <svg class="icon icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg>
         <p>{{page.previous.title}}</p>
       </div>
     </a>

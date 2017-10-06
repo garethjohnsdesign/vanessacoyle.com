@@ -2,22 +2,28 @@
 layout: default
 ---
 
-<div class="grid-x grid-padding-y align-center text-center">
+<div class="grid-x align-center text-center">
   <div class="small-12 medium-10 large-8 cells">
-  <h2>Studio</h2>
+  <h2 class="uppercase">Studio</h2>
   {{ page.studio-text | markdownify }}
   </div>
 </div>
 
-<div class="grid-x grid-padding-y align-center text-center">
+<div class="grid-x align-center text-center">
   <div class="small-12 medium-10 large-8 cells">
-  <h2>Representation</h2>
+  <h2 class="uppercase">Representation</h2>
   {{ page.representation-text | markdownify }}
   </div>
 </div>
 
+<div class="grid-x align-center text-center">
+  <div class="small-12 medium-10 large-6 cells">
+  {{ page.copyright | markdownify }}
+  </div>
+</div>
+
 <div class="grid-x grid-padding-y align-center text-center">
-  <div class="small-12 medium-10 large-8 cells">
-  {{ page.copyright }}
+  <div class="small-12 medium-10 large-6 cells">
+  Site by Gareth Johns Design + Development
   </div>
 </div>

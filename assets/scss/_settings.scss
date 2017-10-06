@@ -65,8 +65,7 @@
 // 1. Global
 // ---------
 
-// $global-font-size: 100%;
-$global-font-size: 90%;
+$global-font-size: 100%;
 // $global-width: rem-calc(1200);
 $global-width: rem-calc(1200);
 $global-lineheight: 1.5;
@@ -152,7 +151,7 @@ $header-styles: (
   ),
   medium: (
     'h1': ('font-size': 24),
-    'h2': ('font-size': 16),
+    'h2': ('font-size': 1rem),
     'h3': ('font-size': 16),
     'h4': ('font-size': 16),
     'h5': ('font-size': 16),
@@ -479,7 +478,7 @@ $menu-nested-margin: $global-menu-nested-margin;
 $menu-items-padding: $global-menu-padding;
 $menu-simple-margin: 1rem;
 // $menu-item-color-active: $white;
-$menu-item-color-active: $medium-gray;
+$menu-item-color-active: scale-color($anchor-color, $lightness: 50%);
 // $menu-item-background-active: get-color(primary);
 $menu-item-background-active: transparent;
 $menu-icon-spacing: 0.25rem;
@@ -532,7 +531,8 @@ $orbit-bullet-margin-top: 0.8rem;
 $orbit-bullet-margin-bottom: 0.8rem;
 $orbit-caption-background: rgba($black, 0.5);
 $orbit-caption-padding: 1rem;
-$orbit-control-background-hover: rgba($black, 0.5);
+// $orbit-control-background-hover: rgba($black, 0.5);
+$orbit-control-background-hover: rgba($black, 0.0);
 $orbit-control-padding: 1rem;
 $orbit-control-zindex: 10;
 

@@ -189,6 +189,12 @@
 		"oAP": "\/_layouts\/celebrity.html",
 		"oF": 0
 		},
+	"\/_layouts\/clients.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/clients.html",
+		"oF": 0
+		},
 	"\/_layouts\/compress.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -237,6 +243,12 @@
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
+	"\/_layouts\/project-runway.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/project-runway.html",
+		"oF": 0
+		},
 	"\/_layouts\/project.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -247,6 +259,24 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/runway.html",
+		"oF": 0
+		},
+	"\/_runway\/julien-macdonald-aw14.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_runway\/julien-macdonald-aw14.markdown",
+		"oF": 0
+		},
+	"\/_runway\/julien-macdonald-ss14.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_runway\/julien-macdonald-ss14.markdown",
+		"oF": 0
+		},
+	"\/_runway\/lover-ss14.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_runway\/lover-ss14.markdown",
 		"oF": 0
 		},
 	"\/_site": {
@@ -770,6 +800,916 @@
 		"iS": 342451,
 		"oA": 0,
 		"oAP": "\/_uploads\/georgia-may-jagger-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-01.jpg": {
+		"ft": 16384,
+		"iS": 206606,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-02.jpg": {
+		"ft": 16384,
+		"iS": 192331,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-03.jpg": {
+		"ft": 16384,
+		"iS": 171460,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-04.jpg": {
+		"ft": 16384,
+		"iS": 219391,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-05.jpg": {
+		"ft": 16384,
+		"iS": 190264,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-06.jpg": {
+		"ft": 16384,
+		"iS": 179783,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-07.jpg": {
+		"ft": 16384,
+		"iS": 218005,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-08.jpg": {
+		"ft": 16384,
+		"iS": 196669,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-09.jpg": {
+		"ft": 16384,
+		"iS": 225667,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-10.jpg": {
+		"ft": 16384,
+		"iS": 182743,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-11.jpg": {
+		"ft": 16384,
+		"iS": 207722,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-12.jpg": {
+		"ft": 16384,
+		"iS": 185895,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-13.jpg": {
+		"ft": 16384,
+		"iS": 188306,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-14.jpg": {
+		"ft": 16384,
+		"iS": 165184,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-15.jpg": {
+		"ft": 16384,
+		"iS": 178101,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-16.jpg": {
+		"ft": 16384,
+		"iS": 168157,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-17.jpg": {
+		"ft": 16384,
+		"iS": 158902,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-18.jpg": {
+		"ft": 16384,
+		"iS": 216438,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-18.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-19.jpg": {
+		"ft": 16384,
+		"iS": 193957,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-20.jpg": {
+		"ft": 16384,
+		"iS": 215563,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-20.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-21.jpg": {
+		"ft": 16384,
+		"iS": 172073,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-22.jpg": {
+		"ft": 16384,
+		"iS": 215274,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-23.jpg": {
+		"ft": 16384,
+		"iS": 235106,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-23.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-24.jpg": {
+		"ft": 16384,
+		"iS": 179982,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-24.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-25.jpg": {
+		"ft": 16384,
+		"iS": 158383,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-25.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-26.jpg": {
+		"ft": 16384,
+		"iS": 189708,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-26.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-27.jpg": {
+		"ft": 16384,
+		"iS": 216995,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-27.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-28.jpg": {
+		"ft": 16384,
+		"iS": 211132,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-28.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-29.jpg": {
+		"ft": 16384,
+		"iS": 202198,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-29.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-30.jpg": {
+		"ft": 16384,
+		"iS": 212513,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-30.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-aw14-feature.jpg": {
+		"ft": 16384,
+		"iS": 206976,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-aw14-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-01.jpg": {
+		"ft": 16384,
+		"iS": 196407,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-02.jpg": {
+		"ft": 16384,
+		"iS": 205909,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-03.jpg": {
+		"ft": 16384,
+		"iS": 196528,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-04.jpg": {
+		"ft": 16384,
+		"iS": 206911,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-05.jpg": {
+		"ft": 16384,
+		"iS": 201159,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-06.jpg": {
+		"ft": 16384,
+		"iS": 222836,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-07.jpg": {
+		"ft": 16384,
+		"iS": 192271,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-08.jpg": {
+		"ft": 16384,
+		"iS": 170954,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-09.jpg": {
+		"ft": 16384,
+		"iS": 166505,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-10.jpg": {
+		"ft": 16384,
+		"iS": 176677,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-11.jpg": {
+		"ft": 16384,
+		"iS": 146637,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-12.jpg": {
+		"ft": 16384,
+		"iS": 143357,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-13.jpg": {
+		"ft": 16384,
+		"iS": 165282,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-14.jpg": {
+		"ft": 16384,
+		"iS": 202066,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-15.jpg": {
+		"ft": 16384,
+		"iS": 203028,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-16.jpg": {
+		"ft": 16384,
+		"iS": 183344,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-17.jpg": {
+		"ft": 16384,
+		"iS": 192239,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-18.jpg": {
+		"ft": 16384,
+		"iS": 183164,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-18.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-19.jpg": {
+		"ft": 16384,
+		"iS": 207045,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-20.jpg": {
+		"ft": 16384,
+		"iS": 196056,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-20.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-21.jpg": {
+		"ft": 16384,
+		"iS": 177123,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-22.jpg": {
+		"ft": 16384,
+		"iS": 197810,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-23.jpg": {
+		"ft": 16384,
+		"iS": 160299,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-23.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-24.jpg": {
+		"ft": 16384,
+		"iS": 239715,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-24.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-25.jpg": {
+		"ft": 16384,
+		"iS": 165297,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-25.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-26.jpg": {
+		"ft": 16384,
+		"iS": 153045,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-26.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-27.jpg": {
+		"ft": 16384,
+		"iS": 156492,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-27.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-28.jpg": {
+		"ft": 16384,
+		"iS": 209761,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-28.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-29.jpg": {
+		"ft": 16384,
+		"iS": 189783,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-29.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-30.jpg": {
+		"ft": 16384,
+		"iS": 192921,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-30.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-31.jpg": {
+		"ft": 16384,
+		"iS": 206459,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-31.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-32.jpg": {
+		"ft": 16384,
+		"iS": 270333,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-32.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/julien-macdonald-ss14-feature.jpg": {
+		"ft": 16384,
+		"iS": 196407,
+		"oA": 0,
+		"oAP": "\/_uploads\/julien-macdonald-ss14-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-01.jpg": {
+		"ft": 16384,
+		"iS": 63713,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-02.jpg": {
+		"ft": 16384,
+		"iS": 78286,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-03.jpg": {
+		"ft": 16384,
+		"iS": 62724,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-04.jpg": {
+		"ft": 16384,
+		"iS": 61488,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-05.jpg": {
+		"ft": 16384,
+		"iS": 54314,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-06.jpg": {
+		"ft": 16384,
+		"iS": 57744,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-07.jpg": {
+		"ft": 16384,
+		"iS": 51658,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-08.jpg": {
+		"ft": 16384,
+		"iS": 57903,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-09.jpg": {
+		"ft": 16384,
+		"iS": 55185,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-10.jpg": {
+		"ft": 16384,
+		"iS": 59241,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-11.jpg": {
+		"ft": 16384,
+		"iS": 56001,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-12.jpg": {
+		"ft": 16384,
+		"iS": 68725,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-13.jpg": {
+		"ft": 16384,
+		"iS": 61681,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-14.jpg": {
+		"ft": 16384,
+		"iS": 65297,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-15.jpg": {
+		"ft": 16384,
+		"iS": 55871,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-16.jpg": {
+		"ft": 16384,
+		"iS": 56263,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-17.jpg": {
+		"ft": 16384,
+		"iS": 55803,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-18.jpg": {
+		"ft": 16384,
+		"iS": 71257,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-18.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-19.jpg": {
+		"ft": 16384,
+		"iS": 56857,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-20.jpg": {
+		"ft": 16384,
+		"iS": 72045,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-20.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-21.jpg": {
+		"ft": 16384,
+		"iS": 64068,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-21.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-22.jpg": {
+		"ft": 16384,
+		"iS": 65538,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-22.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-23.jpg": {
+		"ft": 16384,
+		"iS": 61750,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-23.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-24.jpg": {
+		"ft": 16384,
+		"iS": 59704,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-24.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-25.jpg": {
+		"ft": 16384,
+		"iS": 73754,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-25.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-26.jpg": {
+		"ft": 16384,
+		"iS": 58859,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-26.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lover-ss14-feature.jpg": {
+		"ft": 16384,
+		"iS": 63713,
+		"oA": 0,
+		"oAP": "\/_uploads\/lover-ss14-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1737,7 +2677,7 @@
 		},
 	"\/_uploads\/wax-07.jpg": {
 		"ft": 16384,
-		"iS": 65536,
+		"iS": 46619,
 		"oA": 0,
 		"oAP": "\/_uploads\/wax-08.jpg",
 		"oF": 0,
@@ -1861,56 +2801,52 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/assets\/fonts\/gt-america-bold.woff": {
+	"\/assets\/fonts\/gallery.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/gt-america-bold.woff",
+		"oAP": "\/assets\/fonts\/gallery.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/gt-america-bold.woff2": {
+	"\/assets\/fonts\/gallery.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/gt-america-bold.woff2",
+		"oAP": "\/assets\/fonts\/gallery.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/gt-america-light.woff": {
+	"\/assets\/fonts\/swiss721-boldcondensed.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/gt-america-light.woff",
+		"oAP": "\/assets\/fonts\/swiss721-boldcondensed.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/gt-america-light.woff2": {
+	"\/assets\/fonts\/swiss721-boldcondensed.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/gt-america-light.woff2",
+		"oAP": "\/assets\/fonts\/swiss721-boldcondensed.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/lg.eot": {
+	"\/assets\/fonts\/swiss721-boldcondensedoutline.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/lg.eot",
+		"oAP": "\/assets\/fonts\/swiss721-boldcondensedoutline.woff",
 		"oF": 0
 		},
-	"\/assets\/fonts\/lg.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/lg.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/assets\/fonts\/lg.ttf": {
+	"\/assets\/fonts\/swiss721-boldcondensedoutline.woff2": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/lg.ttf",
+		"oAP": "\/assets\/fonts\/swiss721-boldcondensedoutline.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/lg.woff": {
+	"\/assets\/fonts\/swiss721-medium.woff": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/fonts\/lg.woff",
+		"oAP": "\/assets\/fonts\/swiss721-medium.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/swiss721-medium.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/swiss721-medium.woff2",
 		"oF": 0
 		},
 	"\/assets\/icons\/symbol-defs.svg": {
@@ -10298,6 +11234,24 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/celebrity.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/clients.md": {
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"eLB": 0,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/clients.md",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,

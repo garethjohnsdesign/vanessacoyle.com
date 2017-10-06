@@ -27,8 +27,12 @@
   <link rel="canonical" href="https://www.vanessacoyle.com/">
   <link rel="alternate" type="application/rss+xml" title="Vanessa Coyle" href="https://www.vanessacoyle.com/feed.xml">
 </head>
-<body class="home page">
-<script>document.body.className += ' fade-out';</script>
+<body>
+<div class="grid-y align-center loader">
+  <div class="shrink cell text-center">
+    		Vanessa Coyle
+  </div>
+</div>
 <div class="navigation--mobile grid-y align-center show-for-small-only" id="navigation--mobile" data-toggler=".open">
   <div class="shrink cell">
     <div class="grid-x grid-padding-x align-center">
@@ -38,6 +42,7 @@
           <li><a href="/celebrity" data-toggle="toggle" data-toggler=".is-active">Celebrity</a></li>
           <li><a href="/covers" data-toggle="toggle" data-toggler=".is-active">Covers</a></li>
           <li><a href="/runway" data-toggle="toggle" data-toggler=".is-active">Runway</a></li>
+          <li><a href="/clients" data-toggle="toggle" data-toggler=".is-active">Clients</a></li>
           <li><a href="/info" data-toggle="toggle" data-toggler=".is-active">Info</a></li>
         </ul>
     	</div>
@@ -46,19 +51,28 @@
 </div>
 <div class="grid-y align-justify" style="height: 100vh;">
   <div class="shrink cell">
-  <div class="grid-x grid-padding-y align-center show-for-small-only">
+  <!--
+<div class="grid-x align-center show-for-small-only">
 <div class="shrink navigation__small cell">
   <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation--mobile toggle" data-toggler=".is-active" type="button">
     <span class="hamburger-box"><span class="hamburger-inner"></span></span>
   </button>
 </div>
 </div>
-<div class="grid-x grid-padding-y align-center header">
+-->
+<div class="grid-x align-center header">
   <div class="shrink cell">
+    <div class="grid-x align-center show-for-small-only">
+    <div class="shrink navigation__small cell">
+    <button class="hamburger hamburger--collapse" id="toggle" data-toggle="navigation--mobile toggle" data-toggler=".is-active" type="button">
+    <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+    </button>
+    </div>
+    </div>
     <a href="/">Vanessa Coyle</a>
   </div>
 </div>
-<div class="grid-x align-center navigation">
+<div class="grid-x align-center">
   <div class="shrink cell show-for-medium">
     <nav>
     <ul class="dropdown menu" data-dropdown-menu>
@@ -66,20 +80,21 @@
       <li><a href="/celebrity">Celebrity</a></li>
       <li><a href="/covers">Covers</a></li>
       <li><a href="/runway">Runway</a></li>
+      <li><a href="/clients">Clients</a></li>
       <li><a href="/info">Info</a></li>
     </ul>
     </nav>
   </div>
 </div>
   </div>
-  <div class="shrink cell">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-	<div class="small-12 medium-8 large-7 xxlarge-6 cell">
+  <div class="shrink cell page home">
+  <div class="grid-x align-center">
+	<div class="small-12 medium-6 large-6 xxlarge-6 cell">
     <div class="orbit" role="region" aria-label="Featured Images" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
       <div class="orbit-wrapper">
         <div class="orbit-controls">
-          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-chevron-left"><use xlink:href="/assets/icons/symbol-defs.svg#icon-chevron-left"></use></svg></button>
-          <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-chevron-right"><use xlink:href="/assets/icons/symbol-defs.svg#icon-chevron-right"></use></svg></button>
+          <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-arrow_back"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back"></use></svg></button>
+          <button class="orbit-next"><span class="show-for-sr">Next Slide</span><svg class="icon icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></button>
         </div>
         <ul class="orbit-container">              
             <li class="is-active orbit-slide">
@@ -103,10 +118,8 @@
   <div class="shrink cell">
   <footer>
 <div class="grid-x grid-padding-x grid-padding-y align-center">
-  <div class="shrink cell text-center">
-    <ul class="menu text-center">
-      <li class="menu-text">© Copyright 2017 — Vanessa Coyle</li>
-    </ul>
+  <div class="small-12 cell text-center">
+© 2017 Vanessa Coyle<span class="show-for-medium">. All rights reserved.</span>
   </div>  
 </div>
 </footer>

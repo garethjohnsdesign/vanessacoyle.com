@@ -14,3 +14,17 @@ Single-colored icons can be modified like so:
   color: red;
 }
 ========================================== */
+
+.icon-arrow_forward {
+  font-size: 2rem;
+}
+
+.icon-arrow_back {
+  font-size: 2rem;
+  fill: white;
+  transition: $primary-transition;
+}
+
+.icon-arrow_back:hover {
+  fill: red;
+}

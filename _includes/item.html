@@ -1,15 +1,4 @@
-<a href="{{ project.url }}">
-  	
-  	<div class="grid-x grid-padding-y">
-      <div class="cell">
-    		<img src="{{ project.image }}" alt="{{project.title}}">
-      </div>
-    </div>
-    
-    <div class="grid-x grid-padding-y">
-      <div class="cell text-center">
-    		{{ project.title }}
-      </div>
-    </div>
-		
+<a href="{{ project.url }}" class="text-center item">
+  <img src="{{ project.image }}" alt="{{project.title}}">
+  <h2>{{ project.title }}</h2>
 </a>

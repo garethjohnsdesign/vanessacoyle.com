@@ -76,25 +76,42 @@ i, cite, em, var, address, dfn {
   font-weight: $global-weight-normal;
 }
 
+// 5. Loading
+// ------
+
+.loader {
+  color: $white;
+  font-family: $tertiary-font-family;
+  font-size: 5rem;
+  text-transform: uppercase;
+  line-height: 1;
+  z-index: 15;
+  position: fixed;
+  background: $black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible;
+  
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+
 // X. Pages
 // ------
 
 .page {
-  transition: $primary-transition;
-/*
-  @include breakpoint(small) {
-    padding: 1rem 1rem;
-  }
-  @include breakpoint(medium) {
-    padding: 2rem 2rem;
-  }
-  @include breakpoint(large) {
-    padding: 2.5rem 2.5rem;
-  }
-  @include breakpoint(xlarge) {
-    padding: 3rem 3rem;
-  }
-*/
+  @include xy-gutters($grid-margin-gutters, padding, (top), false);
+}
+
+.home {
+  @include xy-gutters(1rem, padding, (top), false);
 }
 
 // X. Header
@@ -103,17 +120,18 @@ i, cite, em, var, address, dfn {
 .header {
   text-transform: uppercase;
   font-family: $secondary-font-family;
-  letter-spacing: 0.5rem;
-  font-size: 1.75rem;
+  font-size: 2.5rem;
+  @include xy-gutters($grid-margin-gutters, padding, (top), false);
 }
 
 // X. Navigation
 // ------
 
+/*
 nav {
   text-transform: uppercase;
-  letter-spacing: 0.15rem;
 }
+*/
 
 .navigation--mobile {
   z-index: 1;
@@ -134,6 +152,7 @@ nav {
     visibility: visible;
   }
   
+/*
   a {
     color: $color--black;
     padding: 1rem 0rem;
@@ -142,6 +161,7 @@ nav {
   a:hover {
     color: $color--medium-gray;
   }
+*/
   
   .menu .active>a {
     color: black;
@@ -165,15 +185,12 @@ nav {
     
 .projects img {
   transition: $primary-transition;
+  padding-bottom: 1rem;
+}
+
+.projects {
+  @include xy-gutters($grid-margin-gutters, padding, (bottom, left, right), false);
 }
 
 // X. Footer
 // ---------
-
-.footer__socials {
-  @include links ($color--medium-gray, $color--black)
-}
-
-.footer__links {
-  @include links ($color--medium-gray, $color--black)
-}

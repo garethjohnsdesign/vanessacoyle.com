@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<!-- Wrapper -->
+<div class="grid-container">
+<div class="grid-x grid-padding-x align-center">
+<div class="cell">
+
+<!-- Title -->
+<div class="grid-x grid-padding-y align-center">
+  <div class="shrink cell">
+    <h2>{{ page.title }}</h2>
+  </div>
+</div>
+<!-- End Title -->
+
+
+<!-- Projects -->
+<div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-3 large-up-4 xxlarge-up-4 lightgallery">
+{% for image in page.images %}
+  <div class="cell projects" data-aos="fade-in" data-src="{{image}}">
+  <a href="{{image}}"><img src="{{image}}"></a>
+  </div>
+{% endfor %}
+</div>
+<!-- End Projects -->
+
+<!-- Pagination -->
+<div class="grid-x grid-padding-y align-center">
+  <div class="small-8 medium-7 large-7 cell text-center">
+    {% include pagination.html %}
+  </div>
+</div>
+<!-- End Pagination -->
+
+</div>
+</div>
+</div>
+<!-- End Wrapper -->
