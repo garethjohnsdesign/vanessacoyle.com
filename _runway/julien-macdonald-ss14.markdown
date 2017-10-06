@@ -1,7 +1,7 @@
 ---
 title: Julien Macdonald — Spring / Summer 2014
 date: 2016-12-15 00:00:00 Z
-position: 2
+position: 3
 image: "/uploads/julien-macdonald-ss14-feature.jpg"
 images:
 - "/uploads/julien-macdonald-ss14-01.jpg"

@@ -1,7 +1,7 @@
 ---
 title: Antipodium — Spring / Summer 2013
 date: 2016-12-15 00:00:00 Z
-position: 6
+position: 9
 image: "/uploads/antipodium-ss13-feature.jpg"
 images:
 - "/uploads/antipodium-ss13-01.jpg"

@@ -1,7 +1,7 @@
 ---
 title: Mathew Williamson — Fall / Winter 2009
 date: 2016-12-15 00:00:00 Z
-position: 8
+position: 7
 image: "/uploads/mathew-williamson-fw09-feature.jpg"
 images:
 - "/uploads/mathew-williamson-fw09-01.jpg"
