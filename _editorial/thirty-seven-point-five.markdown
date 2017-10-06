@@ -1,7 +1,7 @@
 ---
 title: Thirty Seven Point Five
 date: 2016-12-15 00:00:00 Z
-position: 8
+position: 4
 image: "/uploads/thirty-seven-point-five-feature.jpg"
 images:
 - "/uploads/thirty-seven-point-five-01.jpg"
