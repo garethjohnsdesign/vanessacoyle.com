@@ -1,7 +1,7 @@
 ---
 title: Uma Thurman
 date: 2016-12-15 00:00:00 Z
-position: 1
+position: 5
 image: "/uploads/uma-thurman-feature.jpg"
 images:
 - "/uploads/uma-thurman-01.jpg"

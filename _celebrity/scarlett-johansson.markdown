@@ -1,7 +1,7 @@
 ---
 title: Scarlett Johansson
 date: 2016-12-15 00:00:00 Z
-position: 1
+position: 0
 image: "/uploads/scarlett-johansson-feature.jpg"
 images:
 - "/uploads/scarlett-johansson-01.jpg"
