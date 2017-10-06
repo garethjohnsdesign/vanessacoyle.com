@@ -1,7 +1,7 @@
 ---
 title: Relative Transparency
 date: 2016-12-15 00:00:00 Z
-position: 1
+position: 5
 image: "/uploads/relative-transparency-feature.jpg"
 images:
 - "/uploads/relative-transparency-01.jpg"
