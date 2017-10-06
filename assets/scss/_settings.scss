@@ -79,7 +79,7 @@ $foundation-palette: (
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
-$black: #0a0a0a;
+$black: #111111;
 $white: #fefefe;
 $body-background: $white;
 $body-font-color: $black;
@@ -142,20 +142,20 @@ $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-styles: (
   small: (
-    'h1': ('font-size': 24),
-    'h2': ('font-size': 16),
-    'h3': ('font-size': 16),
-    'h4': ('font-size': 16),
-    'h5': ('font-size': 16),
-    'h6': ('font-size': 16),
+    'h1': ('font-size': 1.5rem),
+    'h2': ('font-size': 1rem),
+    'h3': ('font-size': 1rem),
+    'h4': ('font-size': 1rem),
+    'h5': ('font-size': 1rem),
+    'h6': ('font-size': 1rem),
   ),
   medium: (
-    'h1': ('font-size': 24),
+    'h1': ('font-size': 1.5rem),
     'h2': ('font-size': 1rem),
-    'h3': ('font-size': 16),
-    'h4': ('font-size': 16),
-    'h5': ('font-size': 16),
-    'h6': ('font-size': 16),
+    'h3': ('font-size': 1rem),
+    'h4': ('font-size': 1rem),
+    'h5': ('font-size': 1rem),
+    'h6': ('font-size': 1rem),
   ),
 );
 $header-text-rendering: optimizeLegibility;

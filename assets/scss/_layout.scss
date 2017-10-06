@@ -36,7 +36,7 @@ img {
 }
 
 ::selection {
-  background: $primary-color;
+  background: $anchor-color-hover;
   color: $secondary-color;
 }
 
@@ -179,7 +179,9 @@ nav {
 // ---------
 
 .info {
+  padding-top: 2rem;
   @include breakpoint(medium) {
+    padding-top: 0rem;
   }
 }
 
@@ -190,8 +192,24 @@ nav {
 // X. Clients
 // ---------
 
+.clients {
+  padding-top: 2rem;
+  @include breakpoint(medium) {
+    padding-top: 0rem;
+  }
+}
+
 .clients h2 {
   color: $anchor-color-hover;
 }
 
+// X. Runway
+// ---------
 
+.runway h2 {
+  margin-bottom: 0rem;
+}
+
+.runway h3 {
+  color: $anchor-color-hover;
+}
