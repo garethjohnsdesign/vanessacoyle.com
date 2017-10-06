@@ -27,8 +27,6 @@ images:
 - "/uploads/antipodium-fw13-21.jpg"
 - "/uploads/antipodium-fw13-22.jpg"
 - "/uploads/antipodium-fw13-23.jpg"
-- "/uploads/antipodium-fw13-24.jpg"
-- "/uploads/antipodium-fw13-25.jpg"
 client: Antipodium
 season: Fall / Winter 2013
 layout: project-runway
