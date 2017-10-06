@@ -1,0 +1,30 @@
+{% if page.collection %}
+  {% assign collection = site[page.collection] | sort: 'position' %}
+  {% assign prev = collection | last %}
+  {% assign next = collection | first %}
+
+  {% for item in collection %}
+    {% if item.title == page.title %}
+      {% unless forloop.first %}
+        {% assign prev = iterator %}
+      {% endunless %}
+
+      {% unless forloop.last %}
+        {% assign next = collection[forloop.index] %}
+      {% endunless %}
+    {% endif %}
+
+    {% assign iterator = item %}
+  {% endfor %}
+{% endif %}
+
+{% if next %}
+<div class="grid-x">
+  <div class="small-12 cell text-center">
+    <a href="{{ next.url }}">
+        <svg class="icon icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg>
+        <p>{{ next.title }}</p>
+    </a>
+  </div>
+</div>
+{% endif %}

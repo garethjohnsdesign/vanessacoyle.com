@@ -1,0 +1,59 @@
+---
+title: Vanessa Coyle
+timezone: UTC
+collections:
+  celebrity:
+    title: Celebrity
+    output: true
+  editorial:
+    title: Editorial
+    output: true
+  posts:
+    title: Posts
+    output: true
+  runway:
+    title: Runway
+    output: true
+  uploads:
+    title: Uploads
+    output: false
+url: https://www.vanessacoyle.com
+description: London-based Fashion Stylist
+permalink: pretty
+exclude:
+- bower.json
+- package.json
+- config.codekit3
+- README*
+- LICENSE*
+- CHANGELOG*
+- node_modules
+- ".gitignore"
+- bower_components
+- assets/scss
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+colophon: http://garethjohnsdesign.com
+company: Vanessa Coyle
+email: info@vanessacoyle.com
+google_site_verification: 
+analytics: 
+logo: "/assets/img/logo.svg"
+per_page: 12
+date_format: "%d %B %Y"
+future: true
+social:
+  instagram: https://www.instagram.com/vanessa_coyle/
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false

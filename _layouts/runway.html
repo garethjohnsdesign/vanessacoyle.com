@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<!-- Projects -->
+<div class="grid-container">
+  <div class="grid-x small-up-1 medium-up-3 large-up-4 xxlarge-up-4">
+    {% assign projects = site.runway | sort: 'position' %}
+    {% for project in projects %}
+      <div class="cell projects" data-aos="fade-in">
+        <a href="{{ project.url }}" class="text-center item">
+          <img src="{{ project.image }}" alt="{{project.title}}">
+          <h2>{{ project.client }}</h2>
+          <h3>{{ project.season }}</h3>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Projects -->
