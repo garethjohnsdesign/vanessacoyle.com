@@ -4664,7 +4664,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #858484; }
+    color: #9d9d9d; }
   a img {
     border: 0; }
 
@@ -5577,10 +5577,10 @@ select {
       text-align: center; }
   .menu .is-active > a {
     background: transparent;
-    color: #858484; }
+    color: #9d9d9d; }
   .menu .active > a {
     background: transparent;
-    color: #858484; }
+    color: #9d9d9d; }
   .menu.align-left {
     justify-content: flex-start; }
   .menu.align-right li {
@@ -7031,7 +7031,7 @@ Single-colored icons can be modified like so:
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_forward:hover {
-  fill: #858484; }
+  fill: #9d9d9d; }
 
 .icon-arrow_back {
   font-size: 2rem;
@@ -7039,7 +7039,7 @@ Single-colored icons can be modified like so:
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_back:hover {
-  fill: #858484; }
+  fill: #9d9d9d; }
 
 @font-face {
   font-family: 'Gallery';
@@ -7794,13 +7794,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 body {
   cursor: default; }
 
-body {
-  opacity: 1;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-
-body.fade-out {
-  opacity: 0; }
-
 svg {
   max-width: 100%; }
 
@@ -7861,25 +7854,25 @@ i, cite, em, var, address, dfn {
       padding-top: 2rem; } }
 
 .home {
-  padding-top: 0.5rem; }
+  padding-top: 1rem; }
 
 .header {
-  text-transform: uppercase;
   font-family: "Swiss Bold Condensed", sans-serif;
   font-size: 2.5rem;
-  padding-top: 1.5rem; }
+  padding-top: 0; }
   @media print, screen and (min-width: 40em) {
     .header {
       padding-top: 1.5rem; } }
-  @media print, screen and (min-width: 64em) {
+  @media print, screen and (min-width: 40em) and (min-width: 40em) {
+    .header {
+      padding-top: 1.5rem; } }
+  @media print, screen and (min-width: 40em) and (min-width: 64em) {
     .header {
       padding-top: 2rem; } }
 
-/*
 nav {
-  text-transform: uppercase;
-}
-*/
+  padding-top: 0.375rem; }
+
 .navigation--mobile {
   z-index: 1;
   position: fixed;
@@ -7892,17 +7885,7 @@ nav {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   visibility: hidden;
   font-family: "Swiss Medium", sans-serif;
-  font-size: 1.5rem;
-  /*
-  a {
-    color: $color--black;
-    padding: 1rem 0rem;
-  }
-  
-  a:hover {
-    color: $color--medium-gray;
-  }
-*/ }
+  font-size: 1.5rem; }
   .navigation--mobile.open {
     opacity: 1;
     visibility: visible; }
@@ -7937,7 +7920,7 @@ nav {
       padding-right: 2rem; } }
 
 .info h2 {
-  color: #858484; }
+  color: #9d9d9d; }
 
 .clients h2 {
-  color: #858484; }
+  color: #9d9d9d; }

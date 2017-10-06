@@ -25,15 +25,6 @@ body {
   cursor: default;
 }
 
-body {
-  opacity: 1;
-  transition: $primary-transition;
-}
-
-body.fade-out {
-  opacity: 0;
-}
-
 svg {
   max-width: 100%;
 }
@@ -111,27 +102,27 @@ i, cite, em, var, address, dfn {
 }
 
 .home {
-  @include xy-gutters(1rem, padding, (top), false);
+  @include xy-gutters(2rem, padding, (top), false);
 }
 
 // X. Header
 // ------
 
 .header {
-  text-transform: uppercase;
   font-family: $secondary-font-family;
   font-size: 2.5rem;
-  @include xy-gutters($grid-margin-gutters, padding, (top), false);
+  @include xy-gutters(0, padding, (top), false);
+  @include breakpoint(medium) {
+    @include xy-gutters($grid-margin-gutters, padding, (top), false);
+  }
 }
 
 // X. Navigation
 // ------
 
-/*
 nav {
-  text-transform: uppercase;
+  @include xy-gutters(0.75rem, padding, (top), false);
 }
-*/
 
 .navigation--mobile {
   z-index: 1;
@@ -151,17 +142,6 @@ nav {
     opacity: 1;
     visibility: visible;
   }
-  
-/*
-  a {
-    color: $color--black;
-    padding: 1rem 0rem;
-  }
-  
-  a:hover {
-    color: $color--medium-gray;
-  }
-*/
   
   .menu .active>a {
     color: black;
@@ -197,6 +177,11 @@ nav {
 
 // X. Info
 // ---------
+
+.info {
+  @include breakpoint(medium) {
+  }
+}
 
 .info h2 {
   color: $anchor-color-hover;
