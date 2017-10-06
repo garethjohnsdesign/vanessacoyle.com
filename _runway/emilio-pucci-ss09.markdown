@@ -1,7 +1,7 @@
 ---
 title: Emilio Pucci — Spring / Summer 2009
 date: 2016-12-15 00:00:00 Z
-position: 1
+position: 0
 image: "/uploads/emilio-pucci-ss09-feature.jpg"
 images:
 - "/uploads/emilio-pucci-ss09-01.jpg"

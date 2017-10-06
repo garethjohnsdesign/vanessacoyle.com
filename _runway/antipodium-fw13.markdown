@@ -1,7 +1,7 @@
 ---
 title: Antipodium — Fall / Winter 2013
 date: 2016-12-15 00:00:00 Z
-position: 1
+position: 3
 image: "/uploads/antipodium-fw13-feature.jpg"
 images:
 - "/uploads/antipodium-fw13-01.jpg"
