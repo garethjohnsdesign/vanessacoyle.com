@@ -7026,7 +7026,12 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 .icon-arrow_forward {
-  font-size: 2rem; }
+  font-size: 2rem;
+  fill: white;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+
+.icon-arrow_forward:hover {
+  fill: #858484; }
 
 .icon-arrow_back {
   font-size: 2rem;
@@ -7034,7 +7039,7 @@ Single-colored icons can be modified like so:
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_back:hover {
-  fill: red; }
+  fill: #858484; }
 
 @font-face {
   font-family: 'Gallery';
@@ -7930,3 +7935,9 @@ nav {
       padding-bottom: 2rem;
       padding-left: 2rem;
       padding-right: 2rem; } }
+
+.info h2 {
+  color: #858484; }
+
+.clients h2 {
+  color: #858484; }

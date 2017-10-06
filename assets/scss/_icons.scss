@@ -17,6 +17,12 @@ Single-colored icons can be modified like so:
 
 .icon-arrow_forward {
   font-size: 2rem;
+  fill: white;
+  transition: $primary-transition;
+}
+
+.icon-arrow_forward:hover {
+  fill: $anchor-color-hover;
 }
 
 .icon-arrow_back {
@@ -26,5 +32,5 @@ Single-colored icons can be modified like so:
 }
 
 .icon-arrow_back:hover {
-  fill: red;
+  fill: $anchor-color-hover;
 }

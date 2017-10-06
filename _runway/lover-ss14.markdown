@@ -30,6 +30,8 @@ images:
 - "/uploads/lover-ss14-24.jpg"
 - "/uploads/lover-ss14-25.jpg"
 - "/uploads/lover-ss14-26.jpg"
+client: Lover
+season: Spring / Summer 2014
 layout: project-runway
 ---
 

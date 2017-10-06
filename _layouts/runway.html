@@ -8,7 +8,11 @@ layout: default
     {% assign projects = site.runway | sort: 'date' | reverse %}
     {% for project in projects %}
       <div class="cell projects" data-aos="fade-in">
-      {% include item.html %}
+        <a href="{{ project.url }}" class="text-center item">
+          <img src="{{ project.image }}" alt="{{project.title}}">
+          <h2>{{ project.client }}</h2>
+          <h2>{{ project.season }}</h2>
+        </a>
       </div>
     {% endfor %}
   </div>

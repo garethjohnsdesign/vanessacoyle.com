@@ -25,6 +25,7 @@ $(function() {
   AOS.init({ 
    easing: 'ease-in-out-quart', 
    duration: 600,
+   offset: 120
    });   
 });
 
@@ -32,6 +33,8 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
+// 3. Light Gallery
+// --------------------
 
 $('.lightgallery').lightGallery({
   selector: ".projects"

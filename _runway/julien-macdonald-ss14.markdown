@@ -36,6 +36,8 @@ images:
 - "/uploads/julien-macdonald-ss14-30.jpg"
 - "/uploads/julien-macdonald-ss14-31.jpg"
 - "/uploads/julien-macdonald-ss14-31.jpg"
+client: Julien Macdonald
+season: Spring / Summer 2014
 layout: project-runway
 ---
 
