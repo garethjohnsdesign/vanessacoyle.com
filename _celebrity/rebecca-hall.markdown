@@ -1,7 +1,7 @@
 ---
 title: Rebecca Hall
 date: 2016-12-15 00:00:00 Z
-position: 5
+position: 4
 image: "/uploads/rebecca-hall-feature.jpg"
 images:
 - "/uploads/rebecca-hall-01.jpg"
