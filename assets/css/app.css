@@ -7868,7 +7868,7 @@ i, cite, em, var, address, dfn {
   font-family: "Swiss Bold Condensed", sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
-  padding-top: 0; }
+  padding-top: 1rem; }
   @media print, screen and (min-width: 40em) {
     .header {
       padding-top: 1.5rem; } }

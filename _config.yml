@@ -2,9 +2,6 @@
 title: Vanessa Coyle
 timezone: UTC
 collections:
-  celebrity:
-    title: Celebrity
-    output: true
   editorial:
     title: Editorial
     output: true

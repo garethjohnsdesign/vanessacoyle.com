@@ -112,7 +112,7 @@ i, cite, em, var, address, dfn {
   font-family: $secondary-font-family;
   font-size: 2rem;
   letter-spacing: 2px;
-  @include xy-gutters(0, padding, (top), false);
+  @include xy-gutters(2rem, padding, (top), false);
   @include breakpoint(medium) {
     @include xy-gutters($grid-margin-gutters, padding, (top), false);
   }
