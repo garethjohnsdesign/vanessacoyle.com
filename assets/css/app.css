@@ -1779,7 +1779,7 @@ template {
 
 html {
   box-sizing: border-box;
-  font-size: 100%; }
+  font-size: 95%; }
 
 *,
 *::before,
@@ -1852,7 +1852,7 @@ textarea {
 .grid-container {
   padding-right: 1.5rem;
   padding-left: 1.5rem;
-  max-width: 75rem;
+  max-width: 78.9473684211rem;
   margin: 0 auto; }
   @media print, screen and (min-width: 40em) {
     .grid-container {
@@ -4670,9 +4670,9 @@ a {
 
 hr {
   clear: both;
-  max-width: 75rem;
+  max-width: 78.9473684211rem;
   height: 0;
-  margin: 1.25rem auto;
+  margin: 1.3157894737rem auto;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #cacaca;
@@ -4707,7 +4707,7 @@ dl {
 
 blockquote {
   margin: 0 0 1rem;
-  padding: 0.5625rem 1.25rem 0 1.1875rem;
+  padding: 0.5921052632rem 1.3157894737rem 0 1.25rem;
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
     line-height: 1.6;
@@ -4715,7 +4715,7 @@ blockquote {
 
 cite {
   display: block;
-  font-size: 0.8125rem;
+  font-size: 0.8552631579rem;
   color: #8a8a8a; }
   cite:before {
     content: "— "; }
@@ -4729,7 +4729,7 @@ figure {
   margin: 0; }
 
 code {
-  padding: 0.125rem 0.3125rem 0.0625rem;
+  padding: 0.1315789474rem 0.3289473684rem 0.0657894737rem;
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -4738,7 +4738,7 @@ code {
 
 kbd {
   margin: 0;
-  padding: 0.125rem 0.25rem 0;
+  padding: 0.1315789474rem 0.2631578947rem 0;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #111111; }
@@ -4751,7 +4751,7 @@ kbd {
   color: #8a8a8a; }
 
 .lead {
-  font-size: 125%;
+  font-size: 118.75%;
   line-height: 1.6; }
 
 .stat {
@@ -5141,15 +5141,15 @@ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 2.4375rem;
-  margin: 0 0 1rem;
-  padding: 0.5rem;
+  height: 2.5657894737rem;
+  margin: 0 0 1.0526315789rem;
+  padding: 0.5263157895rem;
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(17, 17, 17, 0.1);
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.0526315789rem;
   font-weight: normal;
   line-height: 1.5;
   color: #111111;
@@ -5189,14 +5189,14 @@ input[type='search'] {
 [type='file'],
 [type='checkbox'],
 [type='radio'] {
-  margin: 0 0 1rem; }
+  margin: 0 0 1.0526315789rem; }
 
 [type='checkbox'] + label,
 [type='radio'] + label {
   display: inline-block;
   vertical-align: baseline;
-  margin-left: 0.5rem;
-  margin-right: 1rem;
+  margin-left: 0.5263157895rem;
+  margin-right: 1.0526315789rem;
   margin-bottom: 0; }
   [type='checkbox'] + label[for],
   [type='radio'] + label[for] {
@@ -5204,7 +5204,7 @@ input[type='search'] {
 
 label > [type='checkbox'],
 label > [type='radio'] {
-  margin-right: 0.5rem; }
+  margin-right: 0.5263157895rem; }
 
 [type='file'] {
   width: 100%; }
@@ -5212,24 +5212,24 @@ label > [type='radio'] {
 label {
   display: block;
   margin: 0;
-  font-size: 0.875rem;
+  font-size: 0.9210526316rem;
   font-weight: normal;
   line-height: 1.8;
   color: #111111; }
   label.middle {
-    margin: 0 0 1rem;
-    padding: 0.5625rem 0; }
+    margin: 0 0 1.0526315789rem;
+    padding: 0.5921052632rem 0; }
 
 .help-text {
-  margin-top: -0.5rem;
-  font-size: 0.8125rem;
+  margin-top: -0.5263157895rem;
+  font-size: 0.8552631579rem;
   font-style: italic;
   color: #111111; }
 
 .input-group {
   display: flex;
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 1.0526315789rem;
   align-items: stretch; }
   .input-group > :first-child {
     border-radius: 0 0 0 0; }
@@ -5278,7 +5278,7 @@ label {
     align-self: stretch;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 1rem; }
+    font-size: 1.0526315789rem; }
 
 fieldset {
   margin: 0;
@@ -5287,36 +5287,36 @@ fieldset {
 
 legend {
   max-width: 100%;
-  margin-bottom: 0.5rem; }
+  margin-bottom: 0.5263157895rem; }
 
 .fieldset {
-  margin: 1.125rem 0;
-  padding: 1.25rem;
+  margin: 1.1842105263rem 0;
+  padding: 1.3157894737rem;
   border: 1px solid #cacaca; }
   .fieldset legend {
     margin: 0;
-    margin-left: -0.1875rem;
-    padding: 0 0.1875rem; }
+    margin-left: -0.1973684211rem;
+    padding: 0 0.1973684211rem; }
 
 select {
-  height: 2.4375rem;
-  margin: 0 0 1rem;
-  padding: 0.5rem;
+  height: 2.5657894737rem;
+  margin: 0 0 1.0526315789rem;
+  padding: 0.5263157895rem;
   appearance: none;
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: #fefefe;
   font-family: inherit;
-  font-size: 1rem;
+  font-size: 1.0526315789rem;
   font-weight: normal;
   line-height: 1.5;
   color: #111111;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
   background-origin: content-box;
-  background-position: right -1rem center;
+  background-position: right -1.0526315789rem center;
   background-repeat: no-repeat;
   background-size: 9px 6px;
-  padding-right: 1.5rem;
+  padding-right: 1.5789473684rem;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
   @media screen and (min-width: 0\0) {
     select {
@@ -5347,9 +5347,9 @@ select {
 
 .form-error {
   display: none;
-  margin-top: -0.5rem;
-  margin-bottom: 1rem;
-  font-size: 0.75rem;
+  margin-top: -0.5263157895rem;
+  margin-bottom: 1.0526315789rem;
+  font-size: 0.7894736842rem;
   font-weight: bold;
   color: #cc4b37; }
   .form-error.is-visible {
@@ -6020,7 +6020,7 @@ select {
 .flex-video {
   position: relative;
   height: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 1.0526315789rem;
   padding-bottom: 75%;
   overflow: hidden; }
   .responsive-embed iframe,
@@ -6180,21 +6180,21 @@ html.is-reveal-open body {
   @media print, screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 75rem; } }
+      max-width: 78.9473684211rem; } }
   .reveal.collapse {
     padding: 0; }
   @media print, screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 75rem; } }
+      max-width: 78.9473684211rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 75rem; } }
+      max-width: 78.9473684211rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 75rem; } }
+      max-width: 78.9473684211rem; } }
   .reveal.full {
     top: 0;
     left: 0;
@@ -7866,7 +7866,8 @@ i, cite, em, var, address, dfn {
 
 .header {
   font-family: "Swiss Bold Condensed", sans-serif;
-  font-size: 2.5rem;
+  font-size: 2rem;
+  letter-spacing: 2px;
   padding-top: 0; }
   @media print, screen and (min-width: 40em) {
     .header {

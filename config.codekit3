@@ -51,12 +51,6 @@
 		"oAP": "\/_celebrity\/scarlett-johansson.markdown",
 		"oF": 0
 		},
-	"\/_celebrity\/st-vincent.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_celebrity\/st-vincent.markdown",
-		"oF": 0
-		},
 	"\/_celebrity\/uma-thurman.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -103,6 +97,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_editorial\/relative-transparency.markdown",
+		"oF": 0
+		},
+	"\/_editorial\/st-vincent.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/st-vincent.markdown",
 		"oF": 0
 		},
 	"\/_editorial\/the-power-of-eleven.markdown": {
