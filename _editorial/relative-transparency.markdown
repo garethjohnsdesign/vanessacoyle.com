@@ -6,7 +6,6 @@ image: "/uploads/relative-transparency-feature.jpg"
 images:
 - "/uploads/relative-transparency-01.jpg"
 - "/uploads/relative-transparency-02.jpg"
-- "/uploads/relative-transparency-03.jpg"
 - "/uploads/relative-transparency-04.jpg"
 - "/uploads/relative-transparency-05.jpg"
 - "/uploads/relative-transparency-06.jpg"
@@ -15,9 +14,7 @@ images:
 - "/uploads/relative-transparency-09.jpg"
 - "/uploads/relative-transparency-10.jpg"
 - "/uploads/relative-transparency-11.jpg"
-- "/uploads/relative-transparency-12.jpg"
 - "/uploads/relative-transparency-13.jpg"
-- "/uploads/relative-transparency-14.jpg"
 publication: Under the Influence
 photographer: Reto Schmid
 is-featured: true
