@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://www.vanessacoyle.com/celebrity/emily-blunt/</loc>
-<lastmod>2016-12-15T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.vanessacoyle.com/celebrity/georgia-may-jagger/</loc>
-<lastmod>2016-12-15T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.vanessacoyle.com/celebrity/rebecca-hall/</loc>
-<lastmod>2016-12-15T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.vanessacoyle.com/celebrity/scarlett-johansson/</loc>
-<lastmod>2016-12-15T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://www.vanessacoyle.com/celebrity/uma-thurman/</loc>
-<lastmod>2016-12-15T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://www.vanessacoyle.com/editorial/40-days/</loc>
 <lastmod>2016-12-15T00:00:00+00:00</lastmod>
 </url>
@@ -101,9 +81,6 @@
 <lastmod>2016-12-15T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://www.vanessacoyle.com/celebrity/</loc>
-</url>
-<url>
 <loc>https://www.vanessacoyle.com/clients/</loc>
 </url>
 <url>
@@ -114,6 +91,9 @@
 </url>
 <url>
 <loc>https://www.vanessacoyle.com/</loc>
+</url>
+<url>
+<loc>https://www.vanessacoyle.com/info/</loc>
 </url>
 <url>
 <loc>https://www.vanessacoyle.com/info/</loc>
