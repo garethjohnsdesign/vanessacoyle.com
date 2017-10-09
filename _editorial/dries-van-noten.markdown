@@ -9,8 +9,6 @@ images:
 - "/uploads/dries-van-noten-03.jpg"
 - "/uploads/dries-van-noten-04.jpg"
 - "/uploads/dries-van-noten-05.jpg"
-- "/uploads/dries-van-noten-06.jpg"
-- "/uploads/dries-van-noten-07.jpg"
 - "/uploads/dries-van-noten-08.jpg"
 - "/uploads/dries-van-noten-09.jpg"
 - "/uploads/dries-van-noten-10.jpg"
