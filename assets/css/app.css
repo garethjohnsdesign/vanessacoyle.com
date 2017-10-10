@@ -7942,6 +7942,13 @@ nav {
 
 .info h2 {
   color: #a0a0a0; }
+  .info h2 a {
+    color: #a0a0a0; }
+    .info h2 a:hover {
+      color: #111111; }
+
+.info__colophon {
+  padding-top: 2rem; }
 
 .clients {
   padding-top: 2rem; }
