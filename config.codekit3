@@ -135,12 +135,6 @@
 		"oAP": "\/_includes\/analytics.html",
 		"oF": 0
 		},
-	"\/_includes\/footer.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/footer.html",
-		"oF": 0
-		},
 	"\/_includes\/head.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -217,12 +211,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/home.html",
-		"oF": 0
-		},
-	"\/_layouts\/info.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/info.html",
 		"oF": 0
 		},
 	"\/_layouts\/missing.html": {
@@ -13767,24 +13755,6 @@
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
-	"\/clients.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 0,
-		"eLB": 0,
-		"ema": 0,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/clients.md",
-		"oF": 1,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"\/covers.md": {
 		"cS": 0,
 		"eF": 1,
@@ -13850,24 +13820,6 @@
 		"oA": 2,
 		"oAP": "\/index.md",
 		"oF": 0,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/info.md": {
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"eLB": 0,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/info.md",
-		"oF": 2,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,
