@@ -1,4 +1,13 @@
 @font-face {
+  font-family: 'GT America Light';
+  src: 
+  url('../fonts/gt-america-light.woff2') format('woff2'), 
+  url('../fonts/gt-america-light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Swiss Medium';
   src: 
   url('../fonts/swiss721-medium.woff2') format('woff2'), 

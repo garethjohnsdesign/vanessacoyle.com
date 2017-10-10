@@ -44,7 +44,6 @@ images:
 - "/uploads/mathew-williamson-fw10-38.jpg"
 - "/uploads/mathew-williamson-fw10-39.jpg"
 - "/uploads/mathew-williamson-fw10-40.jpg"
-- "/uploads/mathew-williamson-fw10-41.jpg"
 client: Mathew Williamson
 season: Fall / Winter 2010
 layout: project-runway

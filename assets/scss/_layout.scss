@@ -110,12 +110,13 @@ i, cite, em, var, address, dfn {
 
 .header {
   font-family: $secondary-font-family;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  font-size: 1.75rem;
+  letter-spacing: 3px;
   @include xy-gutters(2rem, padding, (top), false);
   @include breakpoint(medium) {
     @include xy-gutters($grid-margin-gutters, padding, (top), false);
   }
+  @include links ($black, $anchor-color)
 }
 
 // X. Navigation
@@ -194,14 +195,14 @@ nav {
 
 .info {
   padding-top: 2rem;
+  @include links ( $black, $anchor-color )
   @include breakpoint(medium) {
     padding-top: 0rem;
   }
 }
 
 .info h2 {
-  color: $anchor-color-hover;
-  @include links ($anchor-color-hover, $black)
+  color: $anchor-color;
 }
 
 .info__colophon {
@@ -219,7 +220,7 @@ nav {
 }
 
 .clients h2 {
-  color: $anchor-color-hover;
+  color: $anchor-color;
 }
 
 // X. Runway
@@ -231,4 +232,8 @@ nav {
 
 .runway h3 {
   color: $anchor-color-hover;
+}
+
+footer {
+  color: $anchor-color;
 }
