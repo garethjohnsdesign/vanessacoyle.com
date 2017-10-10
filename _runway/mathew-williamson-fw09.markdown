@@ -2,7 +2,7 @@
 title: Mathew Williamson — Fall / Winter 2009
 date: 2016-12-15 00:00:00 Z
 position: 7
-image: "/uploads/mathew-williamson-fw09-feature.jpg"
+image: "/uploads/mathew-williamson-fw09-01.jpg"
 images:
 - "/uploads/mathew-williamson-fw09-01.jpg"
 - "/uploads/mathew-williamson-fw09-02.jpg"
@@ -43,7 +43,6 @@ images:
 - "/uploads/mathew-williamson-fw09-37.jpg"
 - "/uploads/mathew-williamson-fw09-38.jpg"
 - "/uploads/mathew-williamson-fw09-39.jpg"
-- "/uploads/mathew-williamson-fw09-40.jpg"
 client: Mathew Williamson
 season: Fall / Winter 2009
 layout: project-runway

@@ -1,5 +1,11 @@
 @charset "UTF-8";
 @font-face {
+  font-family: 'GT America Light';
+  src: url("../fonts/gt-america-light.woff2") format("woff2"), url("../fonts/gt-america-light.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'Swiss Medium';
   src: url("../fonts/swiss721-medium.woff2") format("woff2"), url("../fonts/swiss721-medium.woff") format("woff");
   font-weight: normal;
@@ -1790,7 +1796,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "Swiss Medium", sans-serif;
+  font-family: "GT America Light", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #111111;
@@ -4594,7 +4600,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "Swiss Medium", sans-serif;
+  font-family: "GT America Light", sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -4660,11 +4666,11 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #111111;
+  color: #8a8a8a;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #a0a0a0; }
+    color: #454545; }
   a img {
     border: 0; }
 
@@ -5577,10 +5583,10 @@ select {
       text-align: center; }
   .menu .is-active > a {
     background: transparent;
-    color: #a0a0a0; }
+    color: #454545; }
   .menu .active > a {
     background: transparent;
-    color: #a0a0a0; }
+    color: #454545; }
   .menu.align-left {
     justify-content: flex-start; }
   .menu.align-right li {
@@ -5666,7 +5672,7 @@ select {
   content: '';
   border-bottom-width: 0;
   border-top-style: solid;
-  border-color: #111111 transparent transparent;
+  border-color: #8a8a8a transparent transparent;
   right: 5px;
   left: auto;
   margin-top: -3px; }
@@ -5712,7 +5718,7 @@ select {
   content: '';
   border-left-width: 0;
   border-right-style: solid;
-  border-color: transparent #111111 transparent transparent; }
+  border-color: transparent #8a8a8a transparent transparent; }
 
 .dropdown.menu.vertical > li.opens-right > a::after {
   display: block;
@@ -5722,7 +5728,7 @@ select {
   content: '';
   border-right-width: 0;
   border-left-style: solid;
-  border-color: transparent transparent transparent #111111; }
+  border-color: transparent transparent transparent #8a8a8a; }
 
 @media print, screen and (min-width: 40em) {
   .dropdown.menu.medium-horizontal > li.opens-left > .is-dropdown-submenu {
@@ -5744,7 +5750,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #111111 transparent transparent;
+    border-color: #8a8a8a transparent transparent;
     right: 5px;
     left: auto;
     margin-top: -3px; }
@@ -5769,7 +5775,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #111111 transparent transparent; }
+    border-color: transparent #8a8a8a transparent transparent; }
   .dropdown.menu.medium-vertical > li.opens-right > a::after {
     display: block;
     width: 0;
@@ -5778,7 +5784,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #111111; } }
+    border-color: transparent transparent transparent #8a8a8a; } }
 
 @media print, screen and (min-width: 64em) {
   .dropdown.menu.large-horizontal > li.opens-left > .is-dropdown-submenu {
@@ -5800,7 +5806,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #111111 transparent transparent;
+    border-color: #8a8a8a transparent transparent;
     right: 5px;
     left: auto;
     margin-top: -3px; }
@@ -5825,7 +5831,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #111111 transparent transparent; }
+    border-color: transparent #8a8a8a transparent transparent; }
   .dropdown.menu.large-vertical > li.opens-right > a::after {
     display: block;
     width: 0;
@@ -5834,7 +5840,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #111111; } }
+    border-color: transparent transparent transparent #8a8a8a; } }
 
 @media screen and (min-width: 75em) {
   .dropdown.menu.xlarge-horizontal > li.opens-left > .is-dropdown-submenu {
@@ -5856,7 +5862,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #111111 transparent transparent;
+    border-color: #8a8a8a transparent transparent;
     right: 5px;
     left: auto;
     margin-top: -3px; }
@@ -5881,7 +5887,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #111111 transparent transparent; }
+    border-color: transparent #8a8a8a transparent transparent; }
   .dropdown.menu.xlarge-vertical > li.opens-right > a::after {
     display: block;
     width: 0;
@@ -5890,7 +5896,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #111111; } }
+    border-color: transparent transparent transparent #8a8a8a; } }
 
 @media screen and (min-width: 90em) {
   .dropdown.menu.xxlarge-horizontal > li.opens-left > .is-dropdown-submenu {
@@ -5912,7 +5918,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #111111 transparent transparent;
+    border-color: #8a8a8a transparent transparent;
     right: 5px;
     left: auto;
     margin-top: -3px; }
@@ -5937,7 +5943,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #111111 transparent transparent; }
+    border-color: transparent #8a8a8a transparent transparent; }
   .dropdown.menu.xxlarge-vertical > li.opens-right > a::after {
     display: block;
     width: 0;
@@ -5946,7 +5952,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #111111; } }
+    border-color: transparent transparent transparent #8a8a8a; } }
 
 .dropdown.menu.align-right .is-dropdown-submenu.first-sub {
   top: 100%;
@@ -5999,7 +6005,7 @@ select {
     content: '';
     border-left-width: 0;
     border-right-style: solid;
-    border-color: transparent #111111 transparent transparent; }
+    border-color: transparent #8a8a8a transparent transparent; }
   .is-dropdown-submenu .is-dropdown-submenu-parent.opens-right > a::after {
     display: block;
     width: 0;
@@ -6008,7 +6014,7 @@ select {
     content: '';
     border-right-width: 0;
     border-left-style: solid;
-    border-color: transparent transparent transparent #111111; }
+    border-color: transparent transparent transparent #8a8a8a; }
   .is-dropdown-submenu .is-dropdown-submenu {
     margin-top: -1px; }
   .is-dropdown-submenu > li {
@@ -7031,7 +7037,7 @@ Single-colored icons can be modified like so:
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_forward:hover {
-  fill: #a0a0a0; }
+  fill: #454545; }
 
 .icon-arrow_back {
   font-size: 2rem;
@@ -7039,7 +7045,7 @@ Single-colored icons can be modified like so:
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_back:hover {
-  fill: #a0a0a0; }
+  fill: #454545; }
 
 .home .icon-arrow_forward {
   font-size: 2rem;
@@ -7047,7 +7053,7 @@ Single-colored icons can be modified like so:
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .home .icon-arrow_forward:hover {
-  fill: #a0a0a0; }
+  fill: #454545; }
 
 @font-face {
   font-family: 'Gallery';
@@ -7568,7 +7574,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     display: block;
     white-space: pre;
     padding: 4px 12px;
-    font-family: "Swiss Medium", sans-serif;
+    font-family: "GT America Light", sans-serif;
     font-size: 1rem; }
     .lg-outer .lg-dropdown a:hover {
       background-color: rgba(0, 0, 0, 0.07); }
@@ -7811,7 +7817,7 @@ img {
   height: auto; }
 
 ::selection {
-  background: #a0a0a0;
+  background: #454545;
   color: #111111; }
 
 :focus {
@@ -7866,8 +7872,8 @@ i, cite, em, var, address, dfn {
 
 .header {
   font-family: "Swiss Bold Condensed", sans-serif;
-  font-size: 2rem;
-  letter-spacing: 2px;
+  font-size: 1.75rem;
+  letter-spacing: 3px;
   padding-top: 1rem; }
   @media print, screen and (min-width: 40em) {
     .header {
@@ -7878,6 +7884,10 @@ i, cite, em, var, address, dfn {
   @media print, screen and (min-width: 40em) and (min-width: 64em) {
     .header {
       padding-top: 2rem; } }
+  .header a {
+    color: #111111; }
+    .header a:hover {
+      color: #8a8a8a; }
 
 nav {
   padding-top: 0.375rem; }
@@ -7893,7 +7903,7 @@ nav {
   opacity: 0;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   visibility: hidden;
-  font-family: "Swiss Medium", sans-serif;
+  font-family: "GT America Light", sans-serif;
   font-size: 1.5rem; }
   .navigation--mobile.open {
     opacity: 1;
@@ -7929,23 +7939,23 @@ nav {
       padding-right: 2rem; } }
 
 .project h2 {
-  color: #a0a0a0; }
+  color: #8a8a8a; }
 
 .project-runway h2 {
-  color: #a0a0a0; }
+  color: #454545; }
 
 .info {
   padding-top: 2rem; }
+  .info a {
+    color: #111111; }
+    .info a:hover {
+      color: #8a8a8a; }
   @media print, screen and (min-width: 40em) {
     .info {
       padding-top: 0rem; } }
 
 .info h2 {
-  color: #a0a0a0; }
-  .info h2 a {
-    color: #a0a0a0; }
-    .info h2 a:hover {
-      color: #111111; }
+  color: #8a8a8a; }
 
 .info__colophon {
   padding-top: 2rem; }
@@ -7957,10 +7967,13 @@ nav {
       padding-top: 0rem; } }
 
 .clients h2 {
-  color: #a0a0a0; }
+  color: #8a8a8a; }
 
 .runway h2 {
   margin-bottom: 0rem; }
 
 .runway h3 {
-  color: #a0a0a0; }
+  color: #454545; }
+
+footer {
+  color: #8a8a8a; }

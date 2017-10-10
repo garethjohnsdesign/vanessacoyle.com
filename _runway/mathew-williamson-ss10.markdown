@@ -39,7 +39,6 @@ images:
 - "/uploads/mathew-williamson-ss10-33.jpg"
 - "/uploads/mathew-williamson-ss10-34.jpg"
 - "/uploads/mathew-williamson-ss10-35.jpg"
-- "/uploads/mathew-williamson-ss10-36.jpg"
 client: Mathew Williamson
 season: Spring / Summer 2010
 layout: project-runway

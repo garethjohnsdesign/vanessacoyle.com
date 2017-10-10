@@ -2,7 +2,7 @@
 title: Julien Macdonald — Autumn / Winter 2014
 date: 2016-12-15 00:00:00 Z
 position: 2
-image: "/uploads/julien-macdonald-aw14-feature.jpg"
+image: "/uploads/julien-macdonald-aw14-25.jpg"
 images:
 - "/uploads/julien-macdonald-aw14-01.jpg"
 - "/uploads/julien-macdonald-aw14-02.jpg"

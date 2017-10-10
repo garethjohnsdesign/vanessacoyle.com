@@ -2,7 +2,7 @@
 title: Julien Macdonald — Fall / Winter 2013
 date: 2016-12-15 00:00:00 Z
 position: 4
-image: "/uploads/julien-macdonald-fw13-feature.jpg"
+image: "/uploads/julien-macdonald-fw13-02.jpg"
 images:
 - "/uploads/julien-macdonald-fw13-01.jpg"
 - "/uploads/julien-macdonald-fw13-02.jpg"
@@ -37,7 +37,6 @@ images:
 - "/uploads/julien-macdonald-fw13-31.jpg"
 - "/uploads/julien-macdonald-fw13-32.jpg"
 - "/uploads/julien-macdonald-fw13-33.jpg"
-- "/uploads/julien-macdonald-fw13-34.jpg"
 client: Julien Macdonald
 season: Fall / Winter 2013
 layout: project-runway
