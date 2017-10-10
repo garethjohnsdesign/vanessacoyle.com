@@ -99,12 +99,6 @@
 		"oAP": "\/_editorial\/relative-transparency.markdown",
 		"oF": 0
 		},
-	"\/_editorial\/st-vincent.markdown": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_editorial\/st-vincent.markdown",
-		"oF": 0
-		},
 	"\/_editorial\/the-power-of-eleven.markdown": {
 		"ft": 8192,
 		"oA": 2,
@@ -5233,7 +5227,7 @@
 		},
 	"\/_uploads\/wax-07.jpg": {
 		"ft": 16384,
-		"iS": 46619,
+		"iS": 65536,
 		"oA": 0,
 		"oAP": "\/_uploads\/wax-08.jpg",
 		"oF": 0,
