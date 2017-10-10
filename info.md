@@ -1,7 +1,8 @@
 ---
 title: Info
 position: 6
-studio-text: "[07872 837 416](tel:07872 837 416)  \n[info@vanessacoyle.com](mailto:info@vanessacoyle.com)
+about-text: Vanessa Coyle is a stylist and creative consultant based in London. She is currently Fashion Director of Under The Influence magazine.
+studio-text: "[+44 (0)78 7283 7416](tel:07872837416)  \n[info@vanessacoyle.com](mailto:info@vanessacoyle.com)
   \ "
 representation-text: "[The Artist Group](http://www.artist-group.net)  \n[jo@artist-group.net](mailto:jo@artist-group.net)
   \ \n[artist-group.net](http://www.artist-group.net)"

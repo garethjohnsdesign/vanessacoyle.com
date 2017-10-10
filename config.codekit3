@@ -81,10 +81,22 @@
 		"oAP": "\/_editorial\/domesticus.markdown",
 		"oF": 0
 		},
+	"\/_editorial\/dries-van-noten.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/dries-van-noten.markdown",
+		"oF": 0
+		},
 	"\/_editorial\/private-view.markdown": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_editorial\/private-view.markdown",
+		"oF": 0
+		},
+	"\/_editorial\/relative-transparency.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/relative-transparency.markdown",
 		"oF": 0
 		},
 	"\/_editorial\/st-vincent.markdown": {
@@ -109,6 +121,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_editorial\/this-is-not-a-mountain.markdown",
+		"oF": 0
+		},
+	"\/_editorial\/wax.markdown": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/wax.markdown",
 		"oF": 0
 		},
 	"\/_includes\/analytics.html": {
@@ -13839,12 +13857,6 @@
 		"rFN": 0,
 		"uCM": 0
 		},
-	"\/info.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/info.html",
-		"oF": 0
-		},
 	"\/info.md": {
 		"cS": 0,
 		"eF": 1,
@@ -13854,8 +13866,8 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/info.html",
-		"oF": 0,
+		"oAP": "\/info.md",
+		"oF": 2,
 		"oFM": 9,
 		"oS": 0,
 		"pHT": 0,

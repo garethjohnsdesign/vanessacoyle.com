@@ -201,6 +201,11 @@ nav {
 
 .info h2 {
   color: $anchor-color-hover;
+  @include links ($anchor-color-hover, $black)
+}
+
+.info__colophon {
+  padding-top: 2rem;
 }
 
 // X. Clients
