@@ -1,7 +1,7 @@
 ---
 title: Private View
 date: 2016-12-15 00:00:00 Z
-position: 9
+position: 2
 image: "/uploads/private-view-feature.jpg"
 images:
 - "/uploads/private-view-01.jpg"
