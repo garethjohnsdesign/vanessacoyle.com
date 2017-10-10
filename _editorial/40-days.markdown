@@ -1,7 +1,7 @@
 ---
 title: 40 Days
 date: 2016-12-15 00:00:00 Z
-position: 9
+position: 8
 image: "/uploads/40-days-feature.jpg"
 images:
 - "/uploads/40-days-01.jpg"
