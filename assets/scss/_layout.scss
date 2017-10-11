@@ -29,15 +29,15 @@ svg {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
 ::selection {
   background: $anchor-color-hover;
   color: $black;
+}
+
+img {
+//   display: block;
+//   max-width: 100%;
+  height: auto;
 }
 
 :focus {
@@ -105,6 +105,7 @@ i, cite, em, var, address, dfn {
   @include xy-gutters(2rem, padding, (top), false);
 }
 
+
 // X. Header
 // ------
 
@@ -127,7 +128,7 @@ nav {
 }
 
 .navigation--mobile {
-  z-index: 1;
+  z-index: 20;
   position: fixed;
   background: $color--white;
   top: 0;
@@ -155,14 +156,14 @@ nav {
 }
 
 .navigation__small {
-  z-index: 3;
+  z-index: 20;
 }
 
 // 7. Projects
 // ----------
     
 .projects img:hover {
-  filter: saturate(0%) brightness(80%); 
+  filter: saturate(0%) brightness(100%); 
 }
     
 .projects img {
@@ -236,4 +237,23 @@ nav {
 
 footer {
   color: $anchor-color;
+}
+
+.orbit-slide {
+  overflow: hidden;
+}
+
+
+.orbit-slide img {
+  max-width: none;
+  height: 400px;
+  @include breakpoint(medium) {
+  height: 400px
+  }
+  @include breakpoint(large) {
+  height: 450px
+  }
+  @include breakpoint(xxlarge) {
+  height: 550px
+  }
 }

@@ -28,7 +28,7 @@ Single-colored icons can be modified like so:
 
 .icon-arrow_back {
   font-size: 2rem;
-  fill: $white;
+  fill: $anchor-color;
   transition: $primary-transition;
 }
 
@@ -39,7 +39,7 @@ Single-colored icons can be modified like so:
 
 .home .icon-arrow_forward {
   font-size: 2rem;
-  fill: $white;
+  fill: $anchor-color;
   transition: $primary-transition;
 }
 
