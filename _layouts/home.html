@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="grid-x align-center">
-	<div class="small-12 medium-8 large-6 xxlarge-6 cell">
+	<div class="small-12 medium-12 large-12 xxlarge-12 cell">
     <!-- Orbit -->
     <div class="orbit" role="region" aria-label="Featured Images" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
       <div class="orbit-wrapper">
@@ -14,10 +14,16 @@ layout: default
         </div>
         
         <ul class="orbit-container">              
-          {% assign projects = site.documents | sort: 'position' | where: "is-featured", "true" %}
+          {% assign projects = page.images | sort: 'position' %}
           {% for project in projects %}
-            <li class="is-active orbit-slide">
-                <img src="{{project.image}}">
+            <li class="orbit-slide">
+
+                  <div class="grid-x text-center">
+                    <div class="small-12 medium-12 large-12 xxlarge-12 cell">
+                    <img src="{{project.image}}">
+                    </div>
+                  </div>
+
             </li>
           {% endfor %}
         </ul>

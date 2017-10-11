@@ -7041,7 +7041,7 @@ Single-colored icons can be modified like so:
 
 .icon-arrow_back {
   font-size: 2rem;
-  fill: #fefefe;
+  fill: #8a8a8a;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .icon-arrow_back:hover {
@@ -7049,7 +7049,7 @@ Single-colored icons can be modified like so:
 
 .home .icon-arrow_forward {
   font-size: 2rem;
-  fill: #fefefe;
+  fill: #8a8a8a;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 .home .icon-arrow_forward:hover {
@@ -7811,14 +7811,12 @@ body {
 svg {
   max-width: 100%; }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto; }
-
 ::selection {
   background: #454545;
   color: #111111; }
+
+img {
+  height: auto; }
 
 :focus {
   outline: 0; }
@@ -7893,7 +7891,7 @@ nav {
   padding-top: 0.375rem; }
 
 .navigation--mobile {
-  z-index: 1;
+  z-index: 20;
   position: fixed;
   background: #FFFFFF;
   top: 0;
@@ -7914,10 +7912,10 @@ nav {
     background-color: #FFFFFF; }
 
 .navigation__small {
-  z-index: 3; }
+  z-index: 20; }
 
 .projects img:hover {
-  filter: saturate(0%) brightness(80%); }
+  filter: saturate(0%) brightness(100%); }
 
 .projects img {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
@@ -7977,3 +7975,20 @@ nav {
 
 footer {
   color: #8a8a8a; }
+
+.orbit-slide {
+  overflow: hidden; }
+
+.orbit-slide img {
+  max-width: none;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  height: 400px; }
+  @media print, screen and (min-width: 40em) {
+    .orbit-slide img {
+      height: 400px; } }
+  @media print, screen and (min-width: 64em) {
+    .orbit-slide img {
+      height: 450px; } }
+  @media screen and (min-width: 90em) {
+    .orbit-slide img {
+      height: 550px; } }
