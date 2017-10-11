@@ -246,6 +246,7 @@ footer {
 
 .orbit-slide img {
   max-width: none;
+  transition: $primary-transition;
   height: 400px;
   @include breakpoint(medium) {
   height: 400px
