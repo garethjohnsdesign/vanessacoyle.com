@@ -1,6 +1,6 @@
 # Vanessa Coyle
 
-Website for Vanessa Coyle. Please go to [www.vanessacoyle.com](http://vanessacoyle.com) in case you want to take a look at the website.
+Website for Vanessa Coyle. Please go to [www.vanessacoyle.com](https://vanessacoyle.com) in case you want to take a look at the website.
 
 * * *
 
