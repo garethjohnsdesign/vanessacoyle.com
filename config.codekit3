@@ -153,6 +153,12 @@
 		"oAP": "\/_includes\/header.html",
 		"oF": 0
 		},
+	"\/_includes\/image.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/image.html",
+		"oF": 0
+		},
 	"\/_includes\/item.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5303,7 +5309,7 @@
 		},
 	"\/_uploads\/wax-07.jpg": {
 		"ft": 16384,
-		"iS": 46619,
+		"iS": 65536,
 		"oA": 0,
 		"oAP": "\/_uploads\/wax-08.jpg",
 		"oF": 0,

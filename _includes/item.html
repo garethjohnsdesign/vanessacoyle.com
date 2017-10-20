@@ -1,4 +1,6 @@
 <a href="{{ project.url }}" class="text-center item">
-  <img src="{{ project.image }}" alt="{{project.title}}">
+  
+  <img src={{ project.image | imgix_url: w: 400, h: 300 }}>
+  
   <h2>{{ project.title }}</h2>
 </a>

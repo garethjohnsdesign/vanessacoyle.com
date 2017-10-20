@@ -11,7 +11,8 @@ layout: default
 <div class="grid-x small-up-1 medium-up-3 large-up-4 xxlarge-up-4 lightgallery">
 {% for image in page.images %}
   <div class="cell projects" data-aos="fade-in" data-src="{{image}}">
-  <a href="{{image}}"><img src="{{image}}"></a>
+<!--   <a href="{{image}}"><img src="{{image}}"></a> -->
+<a href="{{image}}"><img src={{ image | imgix_url: w: 400, h: 300 }}></a>
   </div>
 {% endfor %}
 </div>

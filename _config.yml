@@ -32,6 +32,7 @@ plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 markdown: kramdown
 kramdown:
   input: GFM
@@ -54,3 +55,6 @@ compress_html:
   - " -->"
   blanklines: true
   profile: false
+imgix:
+  source: vanessa-coyle.imgix.net
+  secure_url_token: wh3dcH4qtmPzYAQb
