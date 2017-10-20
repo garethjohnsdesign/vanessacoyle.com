@@ -4,4 +4,4 @@ Website for Vanessa Coyle. Please go to [www.vanessacoyle.com](http://vanessacoy
 
 * * *
 
-Copyright (c) 2017 Gareth Johns Art Direction + Design – info@garethjohnsdesign.com
+Copyright (c) 2017 Gareth Johns Design + Development – info@garethjohnsdesign.com
