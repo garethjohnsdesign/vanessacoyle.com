@@ -243,12 +243,12 @@ footer {
   transition: $primary-transition;
   height: 400px;
   @include breakpoint(medium) {
-  height: 400px
+  height: 500px
   }
   @include breakpoint(large) {
-  height: 450px
+  height: 600px
   }
   @include breakpoint(xxlarge) {
-  height: 550px
+  height: 700px
   }
 }

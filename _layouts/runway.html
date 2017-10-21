@@ -8,8 +8,19 @@ layout: default
     {% assign projects = site.runway | sort: 'position' %}
     {% for project in projects %}
       <div class="cell projects" data-aos="fade-in">
-        <a href="{{ project.url }}" class="text-center item">
-          <img src="{{ project.image }}" alt="{{project.title}}">
+        <a href="{{ project.url }}" class="text-center item">          
+          
+          
+<img data-interchange=
+"
+[{{ project.image | imgix_url: w: 300, h:450, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, small]
+[{{ project.image | imgix_url: w: 300, h:450, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, medium]
+[{{ project.image | imgix_url: w: 300, h:450, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, large]
+[{{ project.image | imgix_url: w: 300, h:450, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, xxlarge]
+[{{ project.image | imgix_url: w: 300, h:450, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 2}}, retina]
+"
+>  
+    
           <h2>{{ project.client }}</h2>
           <h3>{{ project.season }}</h3>
         </a>

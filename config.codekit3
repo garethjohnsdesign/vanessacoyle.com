@@ -153,12 +153,6 @@
 		"oAP": "\/_includes\/header.html",
 		"oF": 0
 		},
-	"\/_includes\/image.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/image.html",
-		"oF": 0
-		},
 	"\/_includes\/item.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -2877,6 +2871,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/large.jpg": {
+		"ft": 16384,
+		"iS": 39616,
+		"oA": 0,
+		"oAP": "\/_uploads\/large.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/lover-ss14-01.jpg": {
 		"ft": 16384,
 		"iS": 63713,
@@ -4347,6 +4351,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/medium.jpg": {
+		"ft": 16384,
+		"iS": 44438,
+		"oA": 0,
+		"oAP": "\/_uploads\/medium.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/miranda-kerr-01.jpg": {
 		"ft": 16384,
 		"iS": 129189,
@@ -4752,6 +4766,16 @@
 		"iS": 291932,
 		"oA": 0,
 		"oAP": "\/_uploads\/scarlett-johansson-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/small.jpg": {
+		"ft": 16384,
+		"iS": 28474,
+		"oA": 0,
+		"oAP": "\/_uploads\/small.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -10,9 +10,20 @@ layout: default
 <!-- Projects -->
 <div class="grid-x small-up-1 medium-up-3 large-up-4 xxlarge-up-4 lightgallery">
 {% for image in page.images %}
-  <div class="cell projects" data-aos="fade-in" data-src="{{image}}">
-<!--   <a href="{{image}}"><img src="{{image}}"></a> -->
-<a href="{{image}}"><img src={{ image | imgix_url: w: 400, h: 300 }}></a>
+  <div class="cell projects" data-aos="fade-in" data-src="{{ image | imgix_url: w: 1400, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 2}} 2x">
+
+    <a href="{{image}}">  
+    <img data-interchange=
+    "
+    [{{ image | imgix_url: w: 300, h:405, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, small]
+    [{{ image | imgix_url: w: 300, h:405, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, medium]
+    [{{ image | imgix_url: w: 300, h:405, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, large]
+    [{{ image | imgix_url: w: 300, h:405, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, xxlarge]
+    [{{ image | imgix_url: w: 300, h:405, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 2}}, retina]
+    "
+    >  
+    </a>
+
   </div>
 {% endfor %}
 </div>
