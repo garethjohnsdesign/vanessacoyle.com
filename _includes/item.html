@@ -1,4 +1,15 @@
 <a href="{{ project.url }}" class="text-center item">
-  <img src="{{ project.image }}" alt="{{project.title}}">
+  
+  <img data-interchange=
+  "
+  [{{ project.image | imgix_url: w: 640, h: 396, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, small]
+  [{{ project.image | imgix_url: w: 640, h: 396, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, medium]
+  [{{ project.image | imgix_url: w: 1024, h: 633, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, large]
+  "
+  >
+  
   <h2>{{ project.title }}</h2>
 </a>
+
+
+

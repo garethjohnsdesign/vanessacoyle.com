@@ -7982,10 +7982,10 @@ footer {
   height: 400px; }
   @media print, screen and (min-width: 40em) {
     .orbit-slide img {
-      height: 400px; } }
+      height: 500px; } }
   @media print, screen and (min-width: 64em) {
     .orbit-slide img {
-      height: 450px; } }
+      height: 600px; } }
   @media screen and (min-width: 90em) {
     .orbit-slide img {
-      height: 550px; } }
+      height: 700px; } }

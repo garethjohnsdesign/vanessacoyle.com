@@ -5,7 +5,7 @@ layout: default
 <div class="grid-x align-center">
 	<div class="small-12 medium-12 large-12 xxlarge-12 cell">
     <!-- Orbit -->
-    <div class="orbit" role="region" aria-label="Featured Images" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; pauseOnHover:false;">
+    <div class="orbit" role="region" aria-label="Featured Images" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; pauseOnHover:false; nextOnClick:true;">
       <div class="orbit-wrapper">
         
         <div class="orbit-controls">
@@ -20,7 +20,18 @@ layout: default
 
                   <div class="grid-x text-center">
                     <div class="small-12 medium-12 large-12 xxlarge-12 cell">
-                    <img src="{{project.image}}">
+                        
+                      <img data-interchange=
+                      "
+                      [{{ project.image | imgix_url: h: 400, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, small]
+                      [{{ project.image | imgix_url: h: 500, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, medium]
+                      [{{ project.image | imgix_url: h: 600, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, large]
+                      [{{ project.image | imgix_url: h: 700, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 1}}, xxlarge]
+                      [{{ project.image | imgix_url: h: 700, auto: "format", lossless: "true", q: 70, fit: "clip", dpr: 2}}, retina]
+                      "
+                      >
+                
+                    
                     </div>
                   </div>
 
