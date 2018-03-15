@@ -4,6 +4,7 @@ date: 2016-12-15 00:00:00 Z
 position: 0
 image: "/uploads/greta-ilieva-feature.jpg"
 images:
+- "/uploads/this-is-not-a-mountain-01.jpg"
 - "/uploads/greta-ilieva-01.jpg"
 - "/uploads/greta-ilieva-02.jpg"
 - "/uploads/greta-ilieva-03.jpg"
