@@ -111,6 +111,13 @@
 		"oAP": "\/_editorial\/private-view.markdown",
 		"oF": 0
 		},
+	"\/_editorial\/raising-the-barre.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/raising-the-barre.markdown",
+		"oF": 0
+		},
 	"\/_editorial\/relative-transparency.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -4631,6 +4638,116 @@
 		"iS": 229978,
 		"oA": 0,
 		"oAP": "\/_uploads\/private-view-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-01.jpg": {
+		"ft": 16384,
+		"iS": 2068809,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-02.jpg": {
+		"ft": 16384,
+		"iS": 1487628,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-03.jpg": {
+		"ft": 16384,
+		"iS": 3224458,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-04.jpg": {
+		"ft": 16384,
+		"iS": 1151657,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-05.jpg": {
+		"ft": 16384,
+		"iS": 842405,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-06.jpg": {
+		"ft": 16384,
+		"iS": 1481811,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-07.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-08.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-09.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-10.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/raise-the-barre-feature.jpg": {
+		"ft": 16384,
+		"iS": 263295,
+		"oA": 0,
+		"oAP": "\/_uploads\/raise-the-barre-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
