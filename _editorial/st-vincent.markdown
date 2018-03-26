@@ -1,7 +1,7 @@
 ---
 title: St Vincent
 date: 2016-12-15 00:00:00 Z
-position: 3
+position: 5
 image: "/uploads/st-vincent-feature.jpg"
 images:
 - "/uploads/st-vincent-01.jpg"
