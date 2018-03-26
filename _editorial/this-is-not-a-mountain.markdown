@@ -1,7 +1,7 @@
 ---
 title: This is Not a Mountain
 date: 2016-12-15 00:00:00 Z
-position: 1
+position: 2
 image: "/uploads/this-is-not-a-mountain-feature.jpg"
 images:
 - "/uploads/this-is-not-a-mountain-01.jpg"
