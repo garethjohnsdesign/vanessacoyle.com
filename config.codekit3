@@ -2043,6 +2043,13 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/google-pixel-compressed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/google-pixel-compressed.mp4",
+		"oF": 0
+		},
 	"\/_uploads\/google-pixel-feature.jpg": {
 		"ft": 16384,
 		"iS": 49333,
@@ -6024,6 +6031,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/_uploads\/twin-compressed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/twin-compressed.mp4",
+		"oF": 0
 		},
 	"\/_uploads\/uma-thurman-01.jpg": {
 		"ft": 16384,
