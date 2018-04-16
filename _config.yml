@@ -5,6 +5,9 @@ collections:
   editorial:
     title: Editorial
     output: true
+  motion:
+    title: Motion
+    output: true
   posts:
     title: Posts
     output: true
