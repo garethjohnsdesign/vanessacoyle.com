@@ -6,12 +6,10 @@ image: "/uploads/raise-the-barre-feature.jpg"
 preview-video: "/uploads/twin-compressed.mp4"
 images: 
 videos:
-- 264965385
-- 264965380
-- 264965358
 - 264965361
 publication: Twin
 photographer: Agnes Lloyd-Platt
 is-featured: false
 layout: project
 ---
+
