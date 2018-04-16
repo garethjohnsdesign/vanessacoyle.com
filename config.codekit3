@@ -314,11 +314,18 @@
 		"oAP": "\/_layouts\/runway.html",
 		"oF": 0
 		},
-	"\/_motion\/raising-the-barre.markdown": {
+	"\/_motion\/google-pixel.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/_motion\/raising-the-barre.markdown",
+		"oAP": "\/_motion\/google-pixel.markdown",
+		"oF": 0
+		},
+	"\/_motion\/raise-the-barre.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_motion\/raise-the-barre.markdown",
 		"oF": 0
 		},
 	"\/_runway\/antipodium-fw13.markdown": {
@@ -2031,6 +2038,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "\/_uploads\/georgia-may-jagger-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/google-pixel-feature.jpg": {
+		"ft": 16384,
+		"iS": 49333,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/google-pixel-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
