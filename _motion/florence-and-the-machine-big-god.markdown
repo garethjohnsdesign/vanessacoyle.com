@@ -2,13 +2,13 @@
 title: Florence and the Machine - Big God
 date: 2018-09-19 00:00:00 Z
 position: 0
-image:
+image: 
 preview-video: "/uploads/florence-and-the-machine-big-god-compressed.mp4"
 images: 
 videos:
 - 290600272
-publication:
-photographer:
+publication: 
+photographer: 
 director: Autumn De Wilde
 is-featured: false
 layout: project

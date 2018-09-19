@@ -7,8 +7,8 @@ preview-video: "/uploads/chaka-khan-like-sugar-compressed.mp4"
 images: 
 videos:
 - 290594607
-publication:
-photographer:
+publication: 
+photographer: 
 director: Kim Gherig
 is-featured: false
 layout: project
