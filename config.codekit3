@@ -314,6 +314,20 @@
 		"oAP": "\/_layouts\/runway.html",
 		"oF": 0
 		},
+	"\/_motion\/chaka-khan-like-sugar.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_motion\/chaka-khan-like-sugar.markdown",
+		"oF": 0
+		},
+	"\/_motion\/florence-and-the-machine-big-god.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_motion\/florence-and-the-machine-big-god.markdown",
+		"oF": 0
+		},
 	"\/_motion\/google-pixel.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -1063,6 +1077,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/_uploads\/chaka-khan-like-sugar-compressed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/chaka-khan-like-sugar-compressed.mp4",
+		"oF": 0
 		},
 	"\/_uploads\/cover-dec-2009.jpg": {
 		"ft": 16384,
@@ -1987,6 +2008,13 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"\/_uploads\/florence-and-the-machine-big-god-compressed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/florence-and-the-machine-big-god-compressed.mp4",
+		"oF": 0
 		},
 	"\/_uploads\/georgia-may-jagger-01.jpg": {
 		"ft": 16384,
