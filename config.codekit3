@@ -104,6 +104,13 @@
 		"oAP": "\/_editorial\/greta-ilieva.markdown",
 		"oF": 0
 		},
+	"\/_editorial\/lily-james.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/lily-james.markdown",
+		"oF": 0
+		},
 	"\/_editorial\/private-view.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -123,6 +130,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_editorial\/relative-transparency.markdown",
+		"oF": 0
+		},
+	"\/_editorial\/rita-ora.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_editorial\/rita-ora.markdown",
 		"oF": 0
 		},
 	"\/_editorial\/st-vincent.markdown": {
@@ -1193,6 +1207,28 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/cover-modern-weekly-china.jpg": {
+		"ft": 16384,
+		"iS": 471367,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/cover-modern-weekly-china.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/cover-rita-ora.jpg": {
+		"ft": 16384,
+		"iS": 70760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/cover-rita-ora.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/_uploads\/cover-rolling-stone.jpg": {
@@ -3365,6 +3401,149 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/_uploads\/lily-james-modern-weekly-china-01.jpg": {
+		"ft": 16384,
+		"iS": 805909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-02.jpg": {
+		"ft": 16384,
+		"iS": 1176149,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-03.jpg": {
+		"ft": 16384,
+		"iS": 1085148,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-04.jpg": {
+		"ft": 16384,
+		"iS": 795508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-05.jpg": {
+		"ft": 16384,
+		"iS": 774679,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-06.jpg": {
+		"ft": 16384,
+		"iS": 433571,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-07.jpg": {
+		"ft": 16384,
+		"iS": 407260,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-08.jpg": {
+		"ft": 16384,
+		"iS": 570357,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-09.jpg": {
+		"ft": 16384,
+		"iS": 890160,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-10.jpg": {
+		"ft": 16384,
+		"iS": 686746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-11.jpg": {
+		"ft": 16384,
+		"iS": 875639,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-12.jpg": {
+		"ft": 16384,
+		"iS": 814741,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/lily-james-modern-weekly-china-feature.jpg": {
+		"ft": 16384,
+		"iS": 511076,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/lily-james-modern-weekly-china-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/_uploads\/lover-ss14-01.jpg": {
 		"ft": 16384,
 		"iS": 63713,
@@ -5497,6 +5676,94 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-01.jpg": {
+		"ft": 16384,
+		"iS": 487795,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-02.jpg": {
+		"ft": 16384,
+		"iS": 622562,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-03.jpg": {
+		"ft": 16384,
+		"iS": 490387,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-04.jpg": {
+		"ft": 16384,
+		"iS": 571235,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-05.jpg": {
+		"ft": 16384,
+		"iS": 378144,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-06.jpg": {
+		"ft": 16384,
+		"iS": 569358,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-07.jpg": {
+		"ft": 16384,
+		"iS": 621579,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/_uploads\/rita-ora-feature.jpg": {
+		"ft": 16384,
+		"iS": 159323,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/rita-ora-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/_uploads\/scarlett-johansson-01.jpg": {
