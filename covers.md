@@ -3,6 +3,8 @@ title: Covers
 date: 2016-12-15 00:00:00 Z
 position: 3
 images:
+- "/uploads/cover-rita-ora.jpg"
+- "/uploads/cover-modern-weekly-china.jpg"
 - "/uploads/cover-rolling-stone.jpg"
 - "/uploads/cover-under-the-influence-ss2015.jpg"
 - "/uploads/cover-jan-2010.jpg"
