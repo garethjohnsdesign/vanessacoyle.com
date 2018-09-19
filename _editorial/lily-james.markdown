@@ -16,9 +16,6 @@ images:
 - "/uploads/lily-james-modern-weekly-china-10.jpg"
 - "/uploads/lily-james-modern-weekly-china-11.jpg"
 - "/uploads/lily-james-modern-weekly-china-12.jpg"
-- "/uploads/lily-james-modern-weekly-china-01.jpg"
-- "/uploads/lily-james-modern-weekly-china-01.jpg"
-- "/uploads/lily-james-modern-weekly-china-01.jpg"
 publication: Modern Weekly China
 photographer: Sofia + Mauro
 is-featured: 
