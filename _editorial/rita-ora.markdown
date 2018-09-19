@@ -12,7 +12,7 @@ images:
 - "/uploads/rita-ora-06.jpg"
 - "/uploads/rita-ora-07.jpg"
 publication: Sunday Times Style
-photographer: Rory Payne
+photographer: Rory Payne 
 is-featured: 
 layout: project
 ---
