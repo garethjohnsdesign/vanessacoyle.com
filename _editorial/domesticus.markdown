@@ -1,7 +1,7 @@
 ---
 title: Domesticus
 date: 2016-12-15 00:00:00 Z
-position: 3
+position: 5
 image: "/uploads/domesticus-feature.jpg"
 images:
 - "/uploads/domesticus-01.jpg"
