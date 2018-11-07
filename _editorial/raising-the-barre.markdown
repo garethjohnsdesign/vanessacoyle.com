@@ -1,7 +1,7 @@
 ---
 title: Raise the Barre
 date: 2018-03-26 00:00:00 Z
-position: 3
+position: 2
 image: "/uploads/raise-the-barre-feature.jpg"
 images:
 - "/uploads/raise-the-barre-01.jpg"
