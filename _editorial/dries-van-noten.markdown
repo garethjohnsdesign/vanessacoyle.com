@@ -1,7 +1,7 @@
 ---
 title: Dries Van Noten
 date: 2016-12-15 00:00:00 Z
-position: 12
+position: 13
 image: "/uploads/dries-van-noten-feature.jpg"
 images:
 - "/uploads/dries-van-noten-01.jpg"
