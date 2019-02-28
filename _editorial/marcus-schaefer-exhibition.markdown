@@ -1,7 +1,7 @@
 ---
 title: Marcus Schaefer
 date: 2019-02-28 00:00:00 Z
-position: 1
+position: 0
 image: "/uploads/marcus-schaefer-exhibition-feature.jpg"
 images:
 - "/uploads/marcus-schaefer-exhibition-01.jpg"
