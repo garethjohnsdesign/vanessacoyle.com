@@ -132,20 +132,20 @@
 		"oAP": "/_editorial/greta-ilieva.markdown",
 		"oF": 0
 		},
-	"/_editorial/lily-james copy.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_editorial/lily-james copy.markdown",
-		"oF": 0
-		},
 	"/_editorial/lily-james.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/lily-james.markdown",
+		"oF": 0
+		},
+	"/_editorial/marcus-schaefer-exhibition.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/marcus-schaefer-exhibition.markdown",
 		"oF": 0
 		},
 	"/_editorial/private-view.markdown": {
@@ -4188,6 +4188,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/marcus-schaefer-exhibition-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/marcus-schaefer-exhibition-feature.jpg": {
+		"ft": 16384,
+		"iS": 442284,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/marcus-schaefer-exhibition-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
