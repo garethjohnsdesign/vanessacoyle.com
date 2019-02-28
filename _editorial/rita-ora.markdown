@@ -1,7 +1,7 @@
 ---
 title: Rita Ora
 date: 2018-09-19 00:00:00 Z
-position: 12
+position: 13
 image: "/uploads/rita-ora-feature.jpg"
 images:
 - "/uploads/rita-ora-01.jpg"

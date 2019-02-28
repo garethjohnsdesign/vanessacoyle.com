@@ -1,7 +1,7 @@
 ---
 title: Greta Ilieva
 date: 2016-12-15 00:00:00 Z
-position: 2
+position: 3
 image: "/uploads/greta-ilieva-feature.jpg"
 images:
 - "/uploads/greta-ilieva-01.jpg"
