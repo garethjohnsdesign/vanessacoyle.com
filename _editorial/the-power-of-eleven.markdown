@@ -1,7 +1,7 @@
 ---
 title: The Power of Eleven
 date: 2016-12-15 00:00:00 Z
-position: 6
+position: 5
 image: "/uploads/the-power-of-eleven-feature.jpg"
 images:
 - "/uploads/the-power-of-eleven-01.jpg"
