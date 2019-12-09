@@ -17,7 +17,8 @@ clients-text: Stella McCartney, Dasha Zhukova, Emilio Pucci, Etre Cecile, Farfet
 celebrity-text: Scarlett Johansson, Cate Blanchett, Gwyneth Paltrow, Uma Thurman,
   Emily Blunt, Kate Hudson, Liv Tyler, Renee Zellweger, Rachel Weisz, Rebecca Hall,
   Miranda Kerr , Naomi Campbell, Cindy Crawford, Eva Herzigova, Jerry Hall, Georgia
-  May Jagger, Dame Judy Dench, Gwendolyn, Camila Cabello, Victoria Beckham
+  May Jagger, Dame Judy Dench, Gwendolyn, Camila Cabello, Victoria Beckham, Lily James,
+  Grimes, St Vincent, Chaka Khan, Rita Ora, Amber Valetta
 layout: clients
 ---
 
