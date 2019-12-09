@@ -426,6 +426,22 @@
 		"oAP": "/_motion/google-pixel.markdown",
 		"oF": 0
 		},
+	"/_motion/swarovski-fashion-wards.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_motion/swarovski-fashion-wards.markdown",
+		"oF": 0
+		},
+	"/_motion/viva-la-vulva.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_motion/viva-la-vulva.markdown",
+		"oF": 0
+		},
 	"/_runway/antipodium-fw13.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -6355,6 +6371,14 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/swarovski-fashion-wards-compressed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/swarovski-fashion-wards-compressed.mp4",
+		"oF": 0
+		},
 	"/_uploads/the-power-of-eleven-01.jpg": {
 		"ft": 16384,
 		"iS": 268329,
@@ -6780,6 +6804,14 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/_uploads/viva-la-vulva-compressed.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_uploads/viva-la-vulva-compressed.mp4",
+		"oF": 0
 		},
 	"/_uploads/wax-01.jpg": {
 		"ft": 16384,
