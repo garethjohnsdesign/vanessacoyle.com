@@ -17,6 +17,12 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/.jekyll-cache/Jekyll/Cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/.jekyll-cache/Jekyll/Cache",
+		"oF": 0
+		},
 	"/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -1229,6 +1235,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/cover-jan-2010-rev.jpg": {
+		"ft": 16384,
+		"iS": 507645,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cover-jan-2010-rev.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/cover-jan-2010.jpg": {
 		"ft": 16384,
 		"iS": 418057,
@@ -1279,6 +1296,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/cover-march-2011.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/cover-march-2012.jpg": {
+		"ft": 16384,
+		"iS": 1024105,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/cover-march-2012.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

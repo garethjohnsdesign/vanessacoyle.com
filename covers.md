@@ -6,7 +6,7 @@ images:
 - "/uploads/cover-rolling-stone.jpg"
 - "/uploads/cover-modern-weekly-china.jpg"
 - "/uploads/cover-under-the-influence-ss2015.jpg"
-- "/uploads/cover-jan-2010.jpg"
+- "/uploads/cover-jan-2010-rev.jpg"
 - "/uploads/cover-jan-2011.jpg"
 - "/uploads/cover-games.jpg"
 - "/uploads/cover-march-2011.jpg"
@@ -17,6 +17,7 @@ images:
 - "/uploads/cover-rita-ora.jpg"
 - "/uploads/cover-jan-2009.jpg"
 - "/uploads/cover-liv.jpg"
+- "/uploads/cover-march-2012.jpg"
 layout: covers
 ---
 
