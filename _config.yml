@@ -2,11 +2,11 @@
 title: Vanessa Coyle
 timezone: UTC
 collections:
+  commercial:
+    title: Commercial
+    output: true
   editorial:
     title: Editorial
-    output: true
-  motion:
-    title: Motion
     output: true
   posts:
     title: Posts
