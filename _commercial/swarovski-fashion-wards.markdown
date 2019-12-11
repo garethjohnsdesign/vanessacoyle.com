@@ -1,7 +1,7 @@
 ---
 title: Swarovski x Stella McCartney
 date: 2019-12-09 00:00:00 Z
-position: 2
+position: 3
 image: ''
 preview-video: "/uploads/swarovski-fashion-wards-compressed.mp4"
 images: 
