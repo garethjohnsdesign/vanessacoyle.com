@@ -1,4 +1,9 @@
 .DS_Store
 .sass-cache
+<<<<<<< HEAD
+=======
+.jekyll-cache
+Gemfile.lock
+>>>>>>> ffa92edb397d921f8e1ca45365c9b08c2a03cea6
 _site/
 node_modules/

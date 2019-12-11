@@ -5,8 +5,8 @@ collections:
   editorial:
     title: Editorial
     output: true
-  motion:
-    title: Motion
+  commercial:
+    title: Commercial
     output: true
   posts:
     title: Posts
