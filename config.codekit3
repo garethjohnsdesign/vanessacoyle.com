@@ -362,6 +362,14 @@
 		"oAP": "/_layouts/clients.html",
 		"oF": 0
 		},
+	"/_layouts/commercial.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/commercial.html",
+		"oF": 0
+		},
 	"/_layouts/compress.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -418,14 +426,6 @@
 		"oAP": "/_layouts/missing.html",
 		"oF": 0
 		},
-	"/_layouts/motion.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_layouts/motion.html",
-		"oF": 0
-		},
 	"/_layouts/page.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -456,46 +456,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_layouts/runway.html",
-		"oF": 0
-		},
-	"/_motion/chaka-khan-like-sugar.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_motion/chaka-khan-like-sugar.markdown",
-		"oF": 0
-		},
-	"/_motion/florence-and-the-machine-big-god.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_motion/florence-and-the-machine-big-god.markdown",
-		"oF": 0
-		},
-	"/_motion/google-pixel.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_motion/google-pixel.markdown",
-		"oF": 0
-		},
-	"/_motion/swarovski-fashion-wards.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_motion/swarovski-fashion-wards.markdown",
-		"oF": 0
-		},
-	"/_motion/viva-la-vulva.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_motion/viva-la-vulva.markdown",
 		"oF": 0
 		},
 	"/_runway/antipodium-fw13.markdown": {
@@ -689,6 +649,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/40-days-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-x-stella-feature.jpg": {
+		"ft": 16384,
+		"iS": 205325,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-x-stella-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1397,13 +1368,13 @@
 		},
 	"/_uploads/cover-rita-ora.jpg": {
 		"ft": 16384,
-		"iS": 67460,
+		"iS": 70760,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/cover-rita-ora.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/_uploads/cover-rolling-stone.jpg": {
@@ -15999,6 +15970,25 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"/commercial.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/commercial.html",
+		"oF": 0,
+		"oFM": 9,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/covers.md": {
 		"cB": 0,
 		"cS": 0,
@@ -16110,25 +16100,6 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/LICENSE.md",
-		"oF": 0,
-		"oFM": 9,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"/motion.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/motion.md",
 		"oF": 0,
 		"oFM": 9,
 		"oS": 0,
