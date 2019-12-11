@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<!-- Projects -->
+<div class="grid-container">
+  <div class="grid-x small-up-1 medium-up-1 large-up-2">
+    {% assign projects = site.commercial | sort: 'position'%}
+    {% for project in projects %}
+      <div class="cell projects" data-aos="fade-in">
+      
+        {% include item.html %}
+
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Projects -->
