@@ -1,7 +1,7 @@
 ---
 title: Viva La Vulva
 date: 2019-12-09 00:00:00 Z
-position: 2
+position: 4
 image: "/uploads/viva-la-vulva-compressed.jpg"
 preview-video: "/uploads/viva-la-vulva-compressed.mp4"
 images: 
