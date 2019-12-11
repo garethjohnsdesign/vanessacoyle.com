@@ -654,6 +654,94 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/adidas-01.jpg": {
+		"ft": 16384,
+		"iS": 741142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-02.jpg": {
+		"ft": 16384,
+		"iS": 780942,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-03.jpg": {
+		"ft": 16384,
+		"iS": 2255498,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-04.jpg": {
+		"ft": 16384,
+		"iS": 2209732,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-05.jpg": {
+		"ft": 16384,
+		"iS": 2018988,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-06.jpg": {
+		"ft": 16384,
+		"iS": 2241395,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-07.jpg": {
+		"ft": 16384,
+		"iS": 2249760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-08.jpg": {
+		"ft": 16384,
+		"iS": 4209160,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/adidas-x-stella-feature.jpg": {
 		"ft": 16384,
 		"iS": 205325,
@@ -1368,7 +1456,7 @@
 		},
 	"/_uploads/cover-rita-ora.jpg": {
 		"ft": 16384,
-		"iS": 70760,
+		"iS": 67460,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/cover-rita-ora.jpg",
