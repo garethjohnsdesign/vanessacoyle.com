@@ -1,7 +1,7 @@
 ---
 title: Adidas x Stella McCartney
 date: 2019-12-11 00:00:00 Z
-position: 6
+position: 5
 image: "/uploads/adidas-x-stella-stills-feature.jpg"
 images:
 - "/uploads/adidas-ad-01.jpg"

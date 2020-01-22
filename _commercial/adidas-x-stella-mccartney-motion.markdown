@@ -1,7 +1,7 @@
 ---
 title: Adidas x Stella McCartney — Motion
 date: 2019-12-11 00:00:00 Z
-position: 6
+position: 4
 image: "/uploads/adidas-x-stella-motion-feature.jpg"
 videos:
 - 378773615
