@@ -9,7 +9,28 @@ layout: default
     {% for project in projects %}
       <div class="cell projects" data-aos="fade-in">
       
-        {% include item.html %}
+<a href="{{ project.url }}" class="text-center item">
+
+{% if project.preview-video %}
+<div class="responsive-embed widescreen">
+  <video autoplay muted loop>
+    <source src="{{ project.preview-video }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>  
+</div>
+{% else %}
+<img data-interchange=
+"
+[{{ project.image | imgix_url: w: 640, h: 396, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, small]
+[{{ project.image | imgix_url: w: 640, h: 396, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, medium]
+[{{ project.image | imgix_url: w: 1024, h: 633, auto: "format", lossless: "true", q: 60, fit: "crop", dpr: 1}}, large]
+"
+>
+{% endif %}
+  
+<h2>{{ project.publication }}</h2>
+</a>
+
 
       </div>
     {% endfor %}

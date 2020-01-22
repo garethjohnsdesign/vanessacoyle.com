@@ -82,12 +82,20 @@
 		"oAP": "/_celebrity/uma-thurman.markdown",
 		"oF": 0
 		},
-	"/_commercial/adidas-x-stella.markdown": {
+	"/_commercial/adidas-x-stella-mccartney-motion.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_commercial/adidas-x-stella.markdown",
+		"oAP": "/_commercial/adidas-x-stella-mccartney-motion.markdown",
+		"oF": 0
+		},
+	"/_commercial/adidas-x-stella-mccartney-stills.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_commercial/adidas-x-stella-mccartney-stills.markdown",
 		"oF": 0
 		},
 	"/_commercial/chaka-khan-like-sugar.markdown": {
@@ -742,12 +750,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/_uploads/adidas-ad-01.jpg": {
+		"ft": 16384,
+		"iS": 1004162,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-ad-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-ad-02.jpg": {
+		"ft": 16384,
+		"iS": 1104148,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-ad-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/_uploads/adidas-x-stella-feature.jpg": {
 		"ft": 16384,
 		"iS": 205325,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/_uploads/adidas-x-stella-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-x-stella-motion-feature.jpg": {
+		"ft": 16384,
+		"iS": 249651,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-x-stella-motion-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/adidas-x-stella-stills-feature.jpg": {
+		"ft": 16384,
+		"iS": 412734,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/adidas-x-stella-stills-feature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
