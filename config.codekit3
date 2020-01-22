@@ -114,14 +114,6 @@
 		"oAP": "/_commercial/google-pixel.markdown",
 		"oF": 0
 		},
-	"/_commercial/raise-the-barre.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 2,
-		"oAP": "/_commercial/raise-the-barre.markdown",
-		"oF": 0
-		},
 	"/_commercial/swarovski-fashion-wards.markdown": {
 		"cB": 0,
 		"ft": 8192,
@@ -272,6 +264,14 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/_editorial/this-is-not-a-mountain.markdown",
+		"oF": 0
+		},
+	"/_editorial/vogue-ukraine.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_editorial/vogue-ukraine.markdown",
 		"oF": 0
 		},
 	"/_editorial/wax.markdown": {
@@ -6927,6 +6927,237 @@
 		"oA": 2,
 		"oAP": "/_uploads/viva-la-vulva-compressed.mp4",
 		"oF": 0
+		},
+	"/_uploads/vogue-ukraine-01.jpg": {
+		"ft": 16384,
+		"iS": 267950,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-02.jpg": {
+		"ft": 16384,
+		"iS": 188811,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-03.jpg": {
+		"ft": 16384,
+		"iS": 545398,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-04.jpg": {
+		"ft": 16384,
+		"iS": 560719,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-05.jpg": {
+		"ft": 16384,
+		"iS": 327545,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-05.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-06.jpg": {
+		"ft": 16384,
+		"iS": 900385,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-06.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-07.jpg": {
+		"ft": 16384,
+		"iS": 647299,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-07.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-08.jpg": {
+		"ft": 16384,
+		"iS": 352069,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-08.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-09.jpg": {
+		"ft": 16384,
+		"iS": 349931,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-10.jpg": {
+		"ft": 16384,
+		"iS": 461852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-11.jpg": {
+		"ft": 16384,
+		"iS": 1916574,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-11.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-12.jpg": {
+		"ft": 16384,
+		"iS": 158059,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-12.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-13.jpg": {
+		"ft": 16384,
+		"iS": 699125,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-13.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-14.jpg": {
+		"ft": 16384,
+		"iS": 386551,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-14.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-15.jpg": {
+		"ft": 16384,
+		"iS": 294517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-15.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-16.jpg": {
+		"ft": 16384,
+		"iS": 669623,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-16.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-17.jpg": {
+		"ft": 16384,
+		"iS": 249686,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-17.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-18.jpg": {
+		"ft": 16384,
+		"iS": 466803,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-18.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-19.jpg": {
+		"ft": 16384,
+		"iS": 263623,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-19.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-cover.jpg": {
+		"ft": 16384,
+		"iS": 1842580,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/vogue-ukraine-feature.jpg": {
+		"ft": 16384,
+		"iS": 146356,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/vogue-ukraine-feature.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/wax-01.jpg": {
 		"ft": 16384,
