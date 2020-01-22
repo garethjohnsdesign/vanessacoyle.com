@@ -16,6 +16,13 @@ images:
 - "/uploads/vogue-ukraine-10.jpg"
 - "/uploads/vogue-ukraine-11.jpg"
 - "/uploads/vogue-ukraine-12.jpg"
+- "/uploads/vogue-ukraine-13.jpg"
+- "/uploads/vogue-ukraine-14.jpg"
+- "/uploads/vogue-ukraine-15.jpg"
+- "/uploads/vogue-ukraine-16.jpg"
+- "/uploads/vogue-ukraine-17.jpg"
+- "/uploads/vogue-ukraine-18.jpg"
+- "/uploads/vogue-ukraine-19.jpg"
 publication: Vogue Ukraine
 photographer: Derek Henderson
 is-featured: true
