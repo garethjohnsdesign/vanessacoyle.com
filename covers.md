@@ -3,6 +3,7 @@ title: Covers
 date: 2016-12-15 00:00:00 Z
 position: 3
 images:
+- "/uploads/vogue-ukraine-cover.jpg"
 - "/uploads/cover-rolling-stone.jpg"
 - "/uploads/cover-modern-weekly-china.jpg"
 - "/uploads/cover-under-the-influence-ss2015.jpg"

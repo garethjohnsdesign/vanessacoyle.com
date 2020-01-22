@@ -1,7 +1,7 @@
 ---
 title: Grandmother Said It's Okay
 date: 2018-10-15 00:00:00 Z
-position: 1
+position: 2
 image: "/uploads/grandmother-said-its-okay-feature.jpg"
 images:
 - "/uploads/grandmother-said-its-okay-01.jpg"

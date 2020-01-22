@@ -5,7 +5,7 @@ layout: default
 <div class="grid-x align-center">
 	<div class="small-12 medium-12 large-12 xxlarge-12 cell">
     <!-- Orbit -->
-    <div class="orbit" role="region" aria-label="Featured Images" data-orbit data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; pauseOnHover:false; nextOnClick:true;">
+    <div class="orbit" role="region" aria-label="Featured Images" data-orbit data-options="timerDelay: 1000; animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out; pauseOnHover:false; nextOnClick:true;">
       <div class="orbit-wrapper">
         
         <div class="orbit-controls">
@@ -14,7 +14,7 @@ layout: default
         </div>
         
         <ul class="orbit-container">              
-          {% assign projects = page.images | sort: 'position' %}
+          {% assign projects = page.images %}
           {% for project in projects %}
             <li class="orbit-slide">
 
