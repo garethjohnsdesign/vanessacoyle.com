@@ -1,0 +1,31 @@
+{% extends "default/_layouts/base" %}
+
+{% block body %}
+
+<!-- Wrapper -->
+<div class="wrapper grid-y align-justify viewheight" data-off-canvas-content>
+
+<div class="" id="swup-navigation">
+{% block navigation %}
+{% endblock %}
+</div>
+
+<div class="swup-transition-fade" id="swup-body">
+{% block videos %}
+{% endblock %}
+
+{% block main %}
+{% endblock %}
+</div>
+
+{% block footer %}
+{% endblock %}
+</div>
+
+<!-- Navigation -->
+<div class="swup-transition-fade" id="swup-overlay">
+{% include "_includes/reveal/navigation" %}
+</div>
+<!-- End Navigation -->
+
+{% endblock %}

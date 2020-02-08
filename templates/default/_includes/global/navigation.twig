@@ -1,0 +1,26 @@
+<div class="grid-y align-center-middle navigation show-for-small-only" style="height: 4rem;" id="swup-header">
+  <div class="shrink cell text-center" style="z-index: 10;">
+    <a data-toggle="overlayNavigation" class="text-uppercase sans-bold h3 text-center">{{siteName}}</a>
+  </div>
+</div>
+
+<!-- Header -->
+<div class="grid-y align-center-middle navigation show-for-medium" style="height: 4rem;" id="swup-header">
+  <div class="shrink cell padding-2" style="z-index: 10;">
+
+      <ul class="menu align-center">
+        {% if env == 'dev' %}
+          <li><a href="/" class="h3">Home</a></li>
+        {% endif %}
+        {% nav category in craft.categories.group('typeOfFilm') %}
+            <li>
+             <a href="{{ category.url }}" class="h4">{{ category.title }}</a>
+            </li>
+        {% endnav %}
+        <li><a href="/about" class="h4">About</a></li>
+        <li><a href="/contact" class="h4">Contact</a></li>
+      </ul>
+
+  </div>
+</div>
+<!-- End  Header -->

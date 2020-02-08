@@ -1,0 +1,48 @@
+{% set bodyClass = 'home' %}
+
+{% extends "default/_layouts/site" %}
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+{% block videos %}
+<div class="grid-y align-center project-container" style="height: 100vh;">
+  <div class="shrink cell">
+
+    <div class="grid-x grid-padding-x align-center">
+      <div class="small-12 medium-8 large-7 cell text-center">
+        {% set image = entry.image.one() %}
+        <div class="image-holder">
+          <img data-interchange="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+{% endblock %}
+
+{% block main %}
+<div id="blocks" data-aos="fade-in" data-aos-delay="5000">
+<div class="grid-x grid-padding-x">
+  <div class="small-12 cell text-center">
+
+<ul class="list no-bullet margin-bottom-0">
+  {% set projectsQuery = entry.projects.all() %}
+  {% for project in projectsQuery %}
+      {% set item = project.project.one() %}
+      {% set image = item.image.one() %}
+      <li>
+        <a href="{{ item.url }}" class="h1 text-uppercase margin-bottom-0 testing" data-src="{{craft.imager.transformImage(image, { width: (craft.app.config.general.breakpointsContained.medium / 2), dpr: 2, ratio: 16/9, position: image.getFocalPoint() }).url}}" >{{ item.project }}</a>
+      </li>
+  {% endfor %}
+  </div>
+</div>
+</div>
+{% endblock %}
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}
+
