@@ -1,0 +1,42 @@
+---
+layout: 
+---
+
+[
+{% for post in site.commercial %}
+    {
+      "title"    : "{{ post.title }}",
+      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
+      "credit"     : "{{ post.credit }}",
+      "vimeo"     : "{{ post.vimeo }}",
+      "director"     : "{{ post.director }}",
+      "photographer"     : "{{ post.photographer }}",
+      "publication"     : "{{ post.publication }}",
+      "copy"  : "{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}"
+    },
+{% endfor %}
+{% for post in site.editorial %}
+    {
+      "title"    : "{{ post.title }}",
+      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
+      "credit"     : "{{ post.credit }}",
+      "vimeo"     : "{{ post.vimeo }}",
+      "director"     : "{{ post.director }}",
+      "photographer"     : "{{ post.photographer }}",
+      "publication"     : "{{ post.publication }}",
+      "copy"  : "{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}"
+    },
+{% endfor %}
+{% for post in site.runway %}
+    {
+      "title"    : "{{ post.title }}",
+      "date"     : "{{ post.date | date: "%B %d, %Y" }}",
+      "credit"     : "{{ post.credit }}",
+      "vimeo"     : "{{ post.vimeo }}",
+      "director"     : "{{ post.director }}",
+      "photographer"     : "{{ post.photographer }}",
+      "publication"     : "{{ post.publication }}",
+      "copy"  : "{{ post.excerpt | remove: '<p>' | remove: '</p>' | strip_newlines }}"
+    } {% if forloop.last %}{% else %},{% endif %}
+{% endfor %}
+] 
