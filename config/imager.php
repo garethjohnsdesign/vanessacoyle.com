@@ -6,7 +6,7 @@ return [
 
       'transformer' => 'imgix',
 
-      'imagerUrl' => 'http://storage.googleapis.com/tom-okeefe/',
+      'imagerUrl' => 'http://storage.googleapis.com/vanessa-coyle/',
 
       // Enables Imgix integration
       'imgixEnabled' => true,
@@ -14,7 +14,7 @@ return [
 
       'imgixConfig' => [
           'default' => [
-              'domains' => ['tom-okeefe-beta.imgix.net'],
+              'domains' => ['vanessa-coyle-beta.imgix.net'],
               'useHttps' => true,
               'signKey' => '',
               'sourceIsWebProxy' => false,

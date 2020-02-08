@@ -44,7 +44,7 @@ return [
         'enableTemplateCaching' => false,
 
         // Set the environmental variables
-        'staticAssetsVersion' => 7,
+        'staticAssetsVersion' => 1,
         
     ],
 
@@ -66,7 +66,7 @@ return [
     'staging' => [
 
         'siteUrl' => [
-            'default' => 'https://tomokeefe-stage.frb.io',
+            'default' => 'https://vanessacoyle-stage.frb.io',
         ],
 
 
@@ -81,7 +81,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://tomokeefe-prod.frb.io',
+            'default' => 'https://vanessacoyle-prod.frb.io',
         ],
 
         'devMode' => false,

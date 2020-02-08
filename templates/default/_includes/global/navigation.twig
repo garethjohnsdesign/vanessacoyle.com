@@ -5,22 +5,19 @@
 </div>
 
 <!-- Header -->
-<div class="grid-y align-center-middle navigation show-for-medium" style="height: 4rem;" id="swup-header">
-  <div class="shrink cell padding-2" style="z-index: 10;">
+<div class="grid-x grid-padding-x grid-padding-y show-for-medium align-justify" id="swup-header">
+  <div class="shrink cell">
+    {% if env == 'dev' %}
+    <a href="/" class="h5">{{ siteName }}</a>
+    {% endif %}
+  </div>
 
-      <ul class="menu align-center">
-        {% if env == 'dev' %}
-          <li><a href="/" class="h3">Home</a></li>
-        {% endif %}
-        {% nav category in craft.categories.group('typeOfFilm') %}
-            <li>
-             <a href="{{ category.url }}" class="h4">{{ category.title }}</a>
-            </li>
-        {% endnav %}
-        <li><a href="/about" class="h4">About</a></li>
-        <li><a href="/contact" class="h4">Contact</a></li>
-      </ul>
-
+  <div class="shrink cell">
+    {% nav category in craft.categories.group('typeOfFilm') %}
+    <a href="{{ category.url }}" class="h5">{{ category.title }}</a>,
+    {% endnav %}
+    <a href="/about" class="h5">About</a>,
+    <a href="/contact" class="h5">Contact</a>
   </div>
 </div>
 <!-- End  Header -->
