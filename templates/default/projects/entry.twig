@@ -6,6 +6,8 @@
 .relatedTo(entry.category)
 .order('postDate desc') %}
 
+{% set title = entry.title %}
+
 {# Get the prev/next elements #}
 {% set prevEntry = entry.getPrev(params) %}
 {% set nextEntry = entry.getNext(params) %}

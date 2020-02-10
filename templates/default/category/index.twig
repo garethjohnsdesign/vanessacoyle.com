@@ -3,6 +3,7 @@
 .relatedTo(category)
 .order('postDate desc')
 .all() %}
+{% set title = category.title %}
 
 {% extends "_layouts/site" %}
 

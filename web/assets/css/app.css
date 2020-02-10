@@ -9910,7 +9910,7 @@ html.is-animating .swup-transition-color {
   opacity: 0; }
 
 .loader {
-  z-index: 1040;
+  z-index: 10;
   position: fixed;
   background: #fefefe;
   top: 0;

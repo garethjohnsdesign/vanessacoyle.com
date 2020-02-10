@@ -399,6 +399,14 @@
 		"oAP": "/templates/default/_includes/global/head.twig",
 		"oF": 0
 		},
+	"/templates/default/_includes/global/loading.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/templates/default/_includes/global/loading.twig",
+		"oF": 0
+		},
 	"/templates/default/_includes/global/navigation.twig": {
 		"cB": 0,
 		"ft": 8192,
