@@ -7,44 +7,55 @@
 {% endblock %}
 
 {% block main %}
-<!-- Layout -->
-<div class="grid-x small-up-1 medium-up-3 align-center">
+<!-- Layout -->  
+
+<div class="grid-container">
+
+<div class="grid-x grid-padding-x align-center">
+<div class="small-12 large-10 xlarge-9 xxlarge-9 cell">
+
+
+{# Working #}
+  {% for projects in entry.projects.all() %}
   
-  {% set projectsQuery = entry.projects.all() %}
-
-  {% for projects in projectsQuery %}
-    <div class="cell">
-
-<h1>Tests</h1>
-    </div>
-  {% endfor %}
-
-{#
-  {% for project in projectsQuery %}
-    <div class="cell">
+    {% set projects = projects.projects %}
+    {% set numberOfProjects = projects.total() %}
 
 
-      <div class="grid-x grid-padding-x grid-padding-y align-{{project.alignHorizontal.value}} medium-padding-collapse">
-        <div class="cell small-12 {% if project.size.value == 'small' %}medium-6{% elseif project.size.value == 'medium' %}medium-8{% elseif project.size.value == 'large' %}medium-10{% elseif project.size.value == 'full' %}medium-12{% endif %}">
 
 
-        {% set item = project.project.one() %}
-        <a href="{{ item.url }}">
-          {% set image = item.image.one() %}
+<div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-{{(numberOfProjects / 2) | round(0, 'ceil')}} large-up-{{numberOfProjects}} align-center align-middle">
+
+    
+      {% for project in projects %}
+      <div class="cell {% if numberOfProjects == "2" %}padding-3{% endif %}">
+        {% set image = project.image.one() %}
+    
+        {% switch image.aspectRatio %}
+        {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
           <div class="light-gray-background-color">
-          <div class="margin-bottom-1 image--3-4" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+            <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
           </div>
-          <h2 class="h6 text-center">{{item.title}} {% if item.project %}— <span class="serif-italic">{{item.project}}</span>{% endif %}</h2>
-        </a>
-
-        </div>
+        {% default %}
+          <div class="light-gray-background-color">
+            <div class="image--5-7" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+          </div>
+        {% endswitch %}
+    
+        <h2 class="h6 margin-top-1 text-center">{{project.title}}</h2>
       </div>
-
+      {% endfor %}
+  
     </div>
+  
   {% endfor %}
-#}
+{# End Working #}
 
 </div>
+</div>
+
+</div>
+
 <!-- End Layout -->
 {% endblock %}
 

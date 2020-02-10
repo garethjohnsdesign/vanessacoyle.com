@@ -385,10 +385,10 @@ p a {
   min-height: 100vh;
   padding: 1rem;
   @include breakpoint(medium) {
-    padding: 2rem;
+    padding: 1.5rem;
   }
   @include breakpoint(large) {
-    padding: 3rem;
+    padding: 2rem;
   }
 }
 
