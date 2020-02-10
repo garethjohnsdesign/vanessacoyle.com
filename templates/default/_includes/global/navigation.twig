@@ -1,19 +1,20 @@
 <div class="grid-y align-center-middle navigation show-for-small-only" style="height: 4rem;" id="swup-header">
   <div class="shrink cell text-center" style="z-index: 10;">
-    <a data-toggle="overlayNavigation" class="text-uppercase sans-bold h3 text-center">{{siteName}}</a>
+    <a data-toggle="overlayNavigation" class="text-uppercase logo">{{siteName}}</a>
   </div>
 </div>
 
 <!-- Header -->
 <div class="grid-x grid-padding-x grid-padding-y show-for-medium align-justify navigtion" id="swup-header" style="z-index: 14">
   <div class="shrink cell">
-    <a href="/" class="text-uppercase">{{ siteName }}</a>
+    <a href="/" class="text-uppercase logo">{{ siteName }}</a>
   </div>
 
   <div class="shrink cell">
-    {% nav category in craft.categories.group('typeOfFilm') %}
+    {% nav category in craft.categories.group('typeOfProject') %}
     <a href="{{ category.url }}" class="">{{ category.title }}</a>,
     {% endnav %}
+    <a href="/covers" class="">Covers</a>,
     <a href="/about" class="">About</a>,
     <a href="/contact" class="">Contact</a>
   </div>

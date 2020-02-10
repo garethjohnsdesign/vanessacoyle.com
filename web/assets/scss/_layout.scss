@@ -61,7 +61,8 @@ color: $white;
 body {
   cursor: default;
   font-kerning: normal ;
-  margin: 0
+  margin: 0;
+  transition: $primary-transition;
 }
 
 svg {
@@ -238,6 +239,11 @@ p a {
   border-bottom: 1px solid $black;
 }
 
+.logo {
+  font-family: $logo;
+  letter-spacing: 0.5px;
+}
+
 .sans-light {
   font-family: $sans-light;
 }
@@ -287,18 +293,29 @@ p a {
   background-position: 50%;
 }
 
+
+.image--5-4 {
+  @include aspect-ratio (5, 4);
+  background-size: cover; 
+  background-position: 50%;
+}
+
+.image--6-4 {
+  @include aspect-ratio (6, 4);
+  background-size: cover; 
+  background-position: 50%;
+}
+
 .image--3-4 {
   @include aspect-ratio (3, 4);
   background-size: cover; 
   background-position: 50%;
-  background-color: $black;
 }
 
 .image--5-7 {
   @include aspect-ratio (5, 7);
   background-size: cover; 
   background-position: 50%;
-  background-color: $black;
 }
 
 .image--7-5 {
@@ -506,3 +523,10 @@ transition: all 1.0s cubic-bezier(0, 0, 0.58, 1);
 transform: translate3d(0,calc(var(--shiftY) * -5%),0);
 }
 */
+
+.contact {
+  background-color: $black;
+  color: $white;
+  @include links($white, $secondary-color);
+  transition: $primary-transition;
+}

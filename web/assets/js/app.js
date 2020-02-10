@@ -12,6 +12,7 @@ import "lg-video";
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScrollPlugin from '@swup/scroll-plugin';
 import SwupGaPlugin from '@swup/ga-plugin';
+import SwupPreloadPlugin from '@swup/preload-plugin';
 
 
 $( document ).ready( function() {
@@ -125,7 +126,8 @@ $(".list li a").hover( function() { // Changes the .image-holder's img src to th
 const options = {
   animationSelector: '[class*="swup-transition-"]',
   containers: [ '#swup-body', '#swup-header', '#swup-overlay', '#swup-navigation' ],
-  plugins: [ 
+  plugins: [
+    new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),
     new SwupGaPlugin(),
     new SwupScrollPlugin({

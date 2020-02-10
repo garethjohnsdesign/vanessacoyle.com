@@ -10,6 +10,7 @@
   "dependencies": {
     "@swup/body-class-plugin": "^1.0.1",
     "@swup/ga-plugin": "^1.0.1",
+    "@swup/preload-plugin": "^1.0.3",
     "@swup/scripts-plugin": "^1.0.1",
     "@swup/scroll-plugin": "^1.0.6",
     "aos": "^2.3.4",

@@ -6,8 +6,8 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'GT America Condensed Bold';
-  src: url("../fonts/gt-america-condensed-bold.woff2") format("woff2"), url("../fonts/gt-america-condensed-bold.woff") format("woff");
+  font-family: 'Bressay Regular';
+  src: url("../fonts/bressay-regular.woff2") format("woff2"), url("../fonts/bressay-regular.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
 
@@ -1334,7 +1334,7 @@ body {
   margin: 0;
   padding: 0;
   background: #fefefe;
-  font-family: "P22 Mackinac Book", sans-serif;
+  font-family: "P22 Mackinac Book", serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -4862,7 +4862,7 @@ h3, .h3,
 h4, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "P22 Mackinac Book", sans-serif;
+  font-family: "P22 Mackinac Book", serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -7887,10 +7887,10 @@ Single-colored icons can be modified like so:
   font-size: 1.5rem; }
 
 .icon-facebook {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .icon-instagram {
-  font-size: 1.5rem; }
+  font-size: 1rem; }
 
 .icon-brighton-comedy-garden {
   width: 1.3466796875em;
@@ -8465,7 +8465,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     display: block;
     white-space: pre;
     padding: 4px 12px;
-    font-family: "P22 Mackinac Book", sans-serif;
+    font-family: "P22 Mackinac Book", serif;
     font-size: 1rem; }
     .lg-outer .lg-dropdown a:hover {
       background-color: rgba(0, 0, 0, 0.07); }
@@ -9874,7 +9874,8 @@ a:focus {
 body {
   cursor: default;
   font-kerning: normal;
-  margin: 0; }
+  margin: 0;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
 svg {
   max-width: 100%; }
@@ -10032,6 +10033,10 @@ i, cite, em, var, address, dfn {
 p a {
   border-bottom: 1px solid #0a0a0a; }
 
+.logo {
+  font-family: "Bressay Regular", serif;
+  letter-spacing: 0.5px; }
+
 .sans-light {
   font-family: "GT America Medium", sans-serif; }
 
@@ -10048,7 +10053,7 @@ p a {
   font-family: "Louize Display", sans-serif; }
 
 .serif-regular {
-  font-family: "P22 Mackinac Book", sans-serif; }
+  font-family: "P22 Mackinac Book", serif; }
 
 .serif-italic {
   font-family: "Louize Display Italic", sans-serif; }
@@ -10082,11 +10087,50 @@ p a {
     height: 100%;
     width: 100%; }
 
+.image--5-4 {
+  position: relative;
+  background-size: cover;
+  background-position: 50%; }
+  .image--5-4:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 80%; }
+  .image--5-4 .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
+.image--6-4 {
+  position: relative;
+  background-size: cover;
+  background-position: 50%; }
+  .image--6-4:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: 66.6666666667%; }
+  .image--6-4 .content {
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+
 .image--3-4 {
   position: relative;
   background-size: cover;
-  background-position: 50%;
-  background-color: #0a0a0a; }
+  background-position: 50%; }
   .image--3-4:before {
     display: block;
     content: "";
@@ -10106,8 +10150,7 @@ p a {
 .image--5-7 {
   position: relative;
   background-size: cover;
-  background-position: 50%;
-  background-color: #0a0a0a; }
+  background-position: 50%; }
   .image--5-7:before {
     display: block;
     content: "";
@@ -10358,3 +10401,11 @@ transition: all 1.0s cubic-bezier(0, 0, 0.58, 1);
 transform: translate3d(0,calc(var(--shiftY) * -5%),0);
 }
 */
+.contact {
+  background-color: #0a0a0a;
+  color: #fefefe;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
+  .contact a {
+    color: #fefefe; }
+    .contact a:hover {
+      color: #767676; }

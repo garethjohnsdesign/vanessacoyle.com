@@ -12,6 +12,14 @@
   
   {% set projectsQuery = entry.projects.all() %}
 
+  {% for projects in projectsQuery %}
+    <div class="cell">
+
+<h1>Tests</h1>
+    </div>
+  {% endfor %}
+
+{#
   {% for project in projectsQuery %}
     <div class="cell">
 
@@ -23,7 +31,9 @@
         {% set item = project.project.one() %}
         <a href="{{ item.url }}">
           {% set image = item.image.one() %}
-          <div class="margin-bottom-1 image--3-4" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}"{% endif %}></div>
+          <div class="light-gray-background-color">
+          <div class="margin-bottom-1 image--3-4" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-12" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+          </div>
           <h2 class="h6 text-center">{{item.title}} {% if item.project %}— <span class="serif-italic">{{item.project}}</span>{% endif %}</h2>
         </a>
 
@@ -32,6 +42,7 @@
 
     </div>
   {% endfor %}
+#}
 
 </div>
 <!-- End Layout -->
