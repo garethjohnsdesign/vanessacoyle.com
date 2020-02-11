@@ -23,35 +23,15 @@
 
 {% block main %}
 
-<!-- Content -->
-<div class="grid-x grid-padding-x grid-padding-y align-center">
 
-<!-- Previous -->
-<div class="medium-2 large-1 cell show-for-large project__pagination">
-  {% if prevEntry %}
-  <a href="{{ prevEntry.url }}">
-    <div class="grid-y align-center" style="height: 100%;">
-      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow_back"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_back"></use></svg></div>
-    </div>
-  </a>
-  {% endif %}
-</div>
-<!-- End Previous -->
 
-<!-- Center -->
-<div class="small-12 medium-10 large-10 cell">
+<div class="margin-bottom-2 h5 text-center">{{ entry.title }}</div>
 
-      <div class="margin-bottom-2 sans-bold text-uppercase h4 text-center">{{ entry.title }}</div>
-
-{% if entry.video %}
-<div class="grid-x grid-padding-x align-center">
-  <div class="small-12 cell">
-  	<div class="responsive-embed widescreen">
-  	   <iframe src="https://player.vimeo.com/video/{{ entry.video }}?color=ffffff&title=0&byline=0&portrait=0" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-  	</div>
-  </div>
-</div>
-{% endif %}
+<!-- Layout -->
+<section class="grid-container">
+{% include "_includes/blocks/layout" %}
+</section>
+<!-- End Layout -->
 
 
 <!-- Credits -->
@@ -92,29 +72,6 @@
 {% endif %}
 <!-- End Mobile Pagination -->
       
-      
-      
-
-</div>
-<!-- End Center -->
-
-<!-- Next -->
-<div class="medium-2 large-1 cell show-for-large project__pagination">
-  {% if nextEntry %}
-  <a href="{{ nextEntry.url }}">
-    <div class="grid-y align-center" style="height: 100%;">
-      <div class="shrink cell text-center"><svg class="icon icon-arrows icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></div>
-    </div>
-  </a>
-  {% endif %}
-</div>
-<!-- End Next -->
-
-</div>   
-<!-- End Content -->
-
-
-
 {% endblock %}
 
 
