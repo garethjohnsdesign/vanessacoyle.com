@@ -23,18 +23,10 @@
 
 {% block main %}
 
-<!-- Layout -->
-{#
-<section class="grid-container">
-{% include "_includes/blocks/layout" %}
-</section>
-#}
-<!-- End Layout -->
-
 <!-- Swiper -->
 
-<section class="grid-container">
 {#
+<div class="grid-container">
 {% for matrixBlock in entry.layout.all() %}
 {% switch matrixBlock.type %}
     {% case "images" %}
@@ -56,10 +48,15 @@
     </div>
 {% endswitch %}
 {% endfor %}
+</div>
 #}
 
-<!-- Slider main container -->
- <div class="swiper-container">
+<div class="grid-container">
+ <div class="swiper-container" data-aos="fade-in" data-aos-delay="100">
+
+  <div class="swiper-button-prev-test flex-container align-center-middle"></div>
+  <div class="swiper-button-next-test flex-container align-center-middle"></div>
+
     <div class="swiper-wrapper">
 
       {% for matrixBlock in entry.layout.all() %}
@@ -71,20 +68,9 @@
       
                 {% switch image.aspectRatio %}
                 {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
-
-
-<img class="max-viewheight-75" data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100">
-{#
-                      <div class="light-gray-background-color">
-                        <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
-                      </div>
-#}
-
+                <img class="max-viewheight-75" data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-12" %}">
                 {% default %}
-
-<img class="max-viewheight-75" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100">
-{#                   <div class="image--7-5" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"></div> #}
-
+                <img class="max-viewheight-75" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}">
                 {% endswitch %}
               
               </div>
@@ -95,20 +81,19 @@
 
     </div>
   </div>
-</section>
+</div>
 
 <!-- End Swiper -->
 
 
-{#
-<div class="grid-x grid-padding-x grid-padding-y align-center">
+<div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in" data-aos-delay="100">
   <div class="small-12 cell text-center"> 
-    <div class="h5 text-center">{{ entry.title }}</div>
+    <div class="">+</div>
   </div>
 </div>
-#}
 
 <!-- Credits -->
+{#
 <div class="grid-x grid-padding-x align-center">
   <div class="small-12 cell text-center"> 
   {% if entry.client %}
@@ -124,23 +109,28 @@
   {% endif %}
   </div>
 </div>
+#}
 <!-- End Credit -->
 
 <!-- Content -->
+{#
 <div class="grid-x grid-padding-x grid-padding-y grid-margin-y align-center">
   <div class="small-12 cell text-center">
   {{ entry.copy }}
   </div>
 </div>
+#}
 <!-- End Content -->
 
 <!-- Mobile Pagination -->
 {% if nextEntry %}
+{#
 <div class="grid-x grid-padding-x align-center hide-for-large">
   <div class="shrink cell text-center">
     <a href="{{ nextEntry.url }}"><svg class="icon icon-arrows icon-arrow_forward"><use xlink:href="/assets/icons/symbol-defs.svg#icon-arrow_forward"></use></svg></a>
   </div>
 </div>
+#}
 {% endif %}
 <!-- End Mobile Pagination -->
       
