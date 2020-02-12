@@ -9,10 +9,13 @@ import Swup from 'swup';
 import "lightGallery";
 import "lg-fullscreen";
 import "lg-video";
+import Swiper from 'swiper';
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScrollPlugin from '@swup/scroll-plugin';
 import SwupGaPlugin from '@swup/ga-plugin';
 import SwupPreloadPlugin from '@swup/preload-plugin';
+import tippy, {followCursor} from 'tippy.js';
+
 
 
 $( document ).ready( function() {
@@ -47,17 +50,16 @@ $(document).ready(function() {
   }
 });
 
-// 3. Menu
-// -------------
+// 1. Text on Mouse Over
+// ---------------
 
-// 	Menu hover effect
-$(".navigation").hover(function(){
-  	$(".home__menu").removeClass("hide");
-    $(".home__title").addClass("hide"); 
-   	 }, function () {
- 	 $(".home__menu").addClass("hide");
- 	 $(".home__title").removeClass("hide");
-});
+tippy('[data-tippy-content]', {
+  followCursor: true,
+  plugins: [followCursor],
+  arrow: false,
+  theme: 'custom',
+  placement: 'top'
+})
   	
 
 // 4. Viewport Height Fix
@@ -92,6 +94,35 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
+// 5. Carousel
+// -----------
+
+$(document).ready(function () {
+
+//initialize swiper when document ready
+var mySwiper = new Swiper ('.swiper-container', {
+
+  direction: 'horizontal',
+  slidesPerView: 'auto',
+  centeredSlides: true,
+  loop: true,
+  preventClicks: true,
+  slideToClickedSlide: false,
+
+keyboard: {
+enabled: true,
+onlyInViewport: false,
+},
+
+navigation: {
+  nextEl: '.swiper-button-next-test',
+  prevEl: '.swiper-button-prev-test',
+}
+
+
+})
+});
+
 // 6. Lightgallery
 // ---------------
 
@@ -109,14 +140,6 @@ $('#testinglayout').lightGallery({
       rel: 0,
       controls: 0
   }
-});
-
-// 6. Hover
-// --------
-
-$(".list li a").hover( function() { // Changes the .image-holder's img src to the src defined in .list a's data attribute.
-    var value=$(this).attr('data-src');
-    $(".image-holder img").attr("src", value);
 });
 
 }

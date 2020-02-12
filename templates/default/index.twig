@@ -12,7 +12,7 @@
 <div class="grid-container">
 
 <div class="grid-x grid-padding-x align-center">
-<div class="small-12 large-10 cell">
+<div class="small-12 large-12 cell">
 
 
 {# Working #}
@@ -28,21 +28,30 @@
 
     
       {% for project in projects %}
-      <div class="cell {% if numberOfProjects == "2" %}padding-3{% endif %}">
-        {% set image = project.image.one() %}
-    
-        {% switch image.aspectRatio %}
-        {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
-          <div class="light-gray-background-color">
-            <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+      <div class="cell">
+          <div class="grid-x grid-padding-x grid-padding-y">
+              <div class="small-12 cell">
+
+              <a href="{{ project.url }}">
+          {% set image = project.image.one() %}
+      
+          <div class="light-gray-background-color" data-tippy-content="{{project.title}}">
+          {% switch image.aspectRatio %}
+          {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
+          <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+          {% default %}
+          <div class="image--5-7" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+          {% endswitch %}
           </div>
-        {% default %}
-          <div class="light-gray-background-color">
-            <div class="image--5-7" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
-          </div>
-        {% endswitch %}
-    
-        <h2 class="h6 margin-top-1 text-center">{{project.title}}</h2>
+
+          <h2 class="h6 margin-top-1 text-center">{{project.title}}</h2>
+              </a>
+
+
+              </div>
+        </div>
+
+
       </div>
       {% endfor %}
   

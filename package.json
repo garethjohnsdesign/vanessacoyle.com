@@ -24,7 +24,9 @@
     "lightgallery": "^1.6.12",
     "motion-ui": "~2.0.0",
     "package": "^1.0.1",
+    "swiper": "^5.3.1",
     "swup": "^2.0.8",
+    "tippy.js": "^5.2.0",
     "tornis": "^0.2.1",
     "what-input": "^5.2.6"
   },
