@@ -267,7 +267,7 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/lightgallery/dist/js/lightgallery.js": {
+	"/node_modules/lightGallery/dist/js/lightgallery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
@@ -1137,16 +1137,6 @@
 		"oA": 2,
 		"oAP": "/web/assets/fonts/p22-mackinac-book.woff2",
 		"oF": 0
-		},
-	"/web/assets/icons/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/web/assets/icons/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"/web/assets/img/arrow-left.png": {
 		"ft": 32768,

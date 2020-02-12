@@ -23,35 +23,17 @@
 
 {% block main %}
 
+
+<div class="grid-x grid-padding-x align-center" data-aos="fade-in" data-aos-delay="100">
+  <div class="small-12 cell text-center"> 
+    <a data-toggle="project__grid project__swiper"><svg class="icon icon-apps"><use xlink:href="/assets/icons/symbol-defs.svg#icon-apps"></use></svg></a>
+  </div>
+</div>
+
 <!-- Swiper -->
 
-{#
 <div class="grid-container">
-{% for matrixBlock in entry.layout.all() %}
-{% switch matrixBlock.type %}
-    {% case "images" %}
-    <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-{{(matrixBlock.columns.value / 2) | round(0, 'ceil')}} large-up-{% if matrixBlock.columns %}{{ matrixBlock.columns.value }}{% else %}1{% endif %} align-middle">
-      {% for image in matrixBlock.images.all() %}
-      {% switch image.aspectRatio %}
-      {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
-      <div class="cell">
-        <div class="light-gray-background-color">
-          <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
-        </div>
-        </div>
-      {% default %}
-      <div class="cell">
-        <div class="image--7-5" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"></div>
-      </div>
-      {% endswitch %}
-      {% endfor %}
-    </div>
-{% endswitch %}
-{% endfor %}
-</div>
-#}
-
-<div class="grid-container">
+<div class="project__swiper" id="project__swiper" data-toggler=".closed">
  <div class="swiper-container" data-aos="fade-in" data-aos-delay="100">
 
   <div class="swiper-button-prev-test flex-container align-center-middle"></div>
@@ -65,13 +47,20 @@
       
             {% for image in matrixBlock.images.all() %}
               <div class="swiper-slide">
-      
-                {% switch image.aspectRatio %}
+
+<div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in" data-aos-delay="100">
+  <div class="small-12 cell text-center"> 
+              {% switch image.aspectRatio %}
                 {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
                 <img class="max-viewheight-75" data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-12" %}">
                 {% default %}
                 <img class="max-viewheight-75" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}">
                 {% endswitch %}
+  </div>
+</div>
+
+      
+  
               
               </div>
             {% endfor %}
@@ -82,13 +71,41 @@
     </div>
   </div>
 </div>
+</div>
 
 <!-- End Swiper -->
 
+<div class="grid-container">
+<!-- Credits -->
+<div class="project__grid" id="project__grid" data-toggler=".open">
+{% for matrixBlock in entry.layout.all() %}
+{% switch matrixBlock.type %}
+    {% case "images" %}
+    <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-{{(matrixBlock.columns.value / 2) | round(0, 'ceil')}} large-up-{% if matrixBlock.columns %}{{ matrixBlock.columns.value }}{% else %}1{% endif %} align-middle">
+      {% for image in matrixBlock.images.all() %}
+      {% switch image.aspectRatio %}
+      {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
+      <div class="cell">
+        <div class="light-gray-background-color">
+          <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+        </div>
+      </div>
+      {% default %}
+      <div class="cell">
+        <div class="image--7-5" data-interchange="{% include "_includes/images/contained/7-5/interchange-img-small-12-medium-12" %}"></div>
+      </div>
+      {% endswitch %}
+      {% endfor %}
+    </div>
+{% endswitch %}
+{% endfor %}
+</div>
+<!-- End Credits -->
+</div>
 
-<div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in" data-aos-delay="100">
+<div class="grid-x grid-padding-x align-center" data-aos="fade-in" data-aos-delay="100">
   <div class="small-12 cell text-center"> 
-    <div class="">+</div>
+    <a href=""><svg class="icon icon-add"><use xlink:href="/assets/icons/symbol-defs.svg#icon-add"></use></svg></a>
   </div>
 </div>
 

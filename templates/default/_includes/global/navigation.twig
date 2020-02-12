@@ -7,7 +7,7 @@
 <!-- Header -->
 <div class="grid-x grid-padding-x grid-padding-y show-for-medium align-justify navigtion" id="swup-header" style="z-index: 14">
   <div class="shrink cell">
-    <a href="/" class="text-uppercase logo">{{ siteName }}</a>
+    <a href="/" class="text-uppercase logo {% if bodyClass == "project" %}swup-transition-fade{% endif %}">{% if bodyClass == "project" %}{{ entry.title }}{% else %}{{ siteName }}{% endif %}</a>
   </div>
 
   <div class="shrink cell">

@@ -612,3 +612,34 @@ url('/assets/img/arrow-right@2x.png') 2x,
 url('/assets/img/arrow-right@3x.png') 3x
 ) 16 16, auto !important;
 }
+
+.project__grid {
+  z-index: 3;
+  position: relative;
+  background: $white;
+  opacity: 0;
+  transition: $primary-transition;
+  display:none;
+
+  
+  &.open {
+    opacity: 1;
+    display:inline;
+  }
+  
+}
+
+.project__swiper {
+  z-index: 3;
+  position: relative;
+  background: $white;
+  opacity: 1;
+  transition: $primary-transition;
+  display:inline;
+  
+  &.closed {
+    opacity: 0;
+    display:none;
+  }
+  
+}
