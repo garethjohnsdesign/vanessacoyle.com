@@ -1,0 +1,41 @@
+{% set bodyClass = 'project' %}
+
+{# Set parameters for prev/next elements list #}
+{% set params = craft.entries
+.section('projects')
+.relatedTo(entry.category)
+.order('postDate desc') %}
+
+{% set title = entry.title %}
+
+{# Get the prev/next elements #}
+{% set prevEntry = entry.getPrev(params) %}
+{% set nextEntry = entry.getNext(params) %}
+
+{% extends "_layouts/site" %}
+
+
+{% block navigation %}
+{% include "_includes/global/navigation" %}
+{% endblock %}
+
+
+{% block main %}
+  <div class="grid-container">
+    {% for video in entry.videos.all() %}
+      <div class="grid-x grid-padding-x grid-padding-y">
+       <div class="small-12 cell">
+
+        <div class="responsive-embed widescreen">
+          <iframe src="https://player.vimeo.com/video/{{video.video}}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}
+
+
+{% block footer %}
+{% include "_includes/global/footer" %}
+{% endblock %}

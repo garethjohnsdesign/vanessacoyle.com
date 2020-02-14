@@ -10124,13 +10124,12 @@ transform: translate3d(0,calc(var(--shiftY) * -5%),0);
 }
 */
 .contact {
-  background-color: #0a0a0a;
-  color: #fefefe;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
-  .contact a {
-    color: #fefefe; }
-    .contact a:hover {
-      color: #767676; }
+  /*
+  background-color: $black;
+  color: $white;
+  @include links($white, $secondary-color);
+  transition: $primary-transition;
+*/ }
 
 .item {
   cursor: pointer; }
@@ -10163,7 +10162,9 @@ width:auto;
   text-align: center;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  width: 100%;
+  height: 100%; }
 
 .swiper-button-prev-test,
 .swiper-button-next-test {
@@ -10197,21 +10198,33 @@ width:auto;
   background: #fefefe;
   opacity: 0;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-  display: none; }
+  display: none;
+  visibility: hidden; }
   .project__grid.open {
     opacity: 1;
-    display: inline; }
+    display: block;
+    visibility: visible;
+    animation: fade 1s; }
 
 .project__swiper {
   z-index: 3;
   position: relative;
   background: #fefefe;
   opacity: 1;
-  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
-  display: inline; }
+  display: block;
+  visibility: visible;
+  animation: fade 1s; }
   .project__swiper.closed {
     opacity: 0;
-    display: none; }
+    transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    display: none;
+    visibility: hidden; }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
 
 .tippy-tooltip[data-animation=fade][data-state=hidden] {
   opacity: 0; }

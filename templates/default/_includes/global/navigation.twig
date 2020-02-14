@@ -1,13 +1,13 @@
-<div class="grid-y align-center-middle navigation show-for-small-only" style="height: 4rem;" id="swup-header">
+<div class="grid-x grid-padding-x grid-padding-y align-center-middle navigation hide-for-large" id="swup-header">
   <div class="shrink cell text-center" style="z-index: 10;">
     <a data-toggle="overlayNavigation" class="text-uppercase logo">{{siteName}}</a>
   </div>
 </div>
 
 <!-- Header -->
-<div class="grid-x grid-padding-x grid-padding-y show-for-medium align-justify navigtion" id="swup-header" style="z-index: 14">
+<div class="grid-x grid-padding-x grid-padding-y show-for-large align-justify navigtion" id="swup-header" style="z-index: 14">
   <div class="shrink cell">
-    <a href="/" class="text-uppercase logo {% if bodyClass == "project" %}swup-transition-fade{% endif %}">{% if bodyClass == "project" %}{{ entry.title }}{% else %}{{ siteName }}{% endif %}</a>
+    <a href="/" class="text-uppercase logo swup-transition-fade">{% if bodyClass == "project" %}{{ entry.title }}{% else %}{{ siteName }}{% endif %}</a>
   </div>
 
   <div class="shrink cell">

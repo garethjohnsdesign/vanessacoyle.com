@@ -10,46 +10,61 @@
 <!-- Layout -->  
 
 <div class="grid-container">
-  <div class="grid-x grid-padding-x align-center">
-    <div class="small-12 large-12 cell">
-    
-    
+
+    <!-- Projects Row -->
     {% for projects in entry.projects.all() %}
-    {% set projects = projects.projects %}
-    {% set numberOfProjects = projects.total() %}
-    <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-{{(numberOfProjects / 2) | round(0, 'ceil')}} large-up-{{numberOfProjects}} align-center align-middle">
-        
+      {% if projects.position == 'full' %}
+      <div class="grid-x grid-padding-y align-center" data-aos="fade-in">
+        <div class="small-12 large-12 cell">
+      {% elseif projects.position in ['left', 'right', 'center'] %}
+      <div class="grid-x grid-padding-y align-{{ projects.position }}" data-aos="fade-in">
+        <div class="small-12 large-10 cell">
+      {% else %}
+      <div class="grid-x grid-padding-y align-{{ projects.position }}" data-aos="fade-in">
+        <div class="small-12 large-12 cell">
+      {% endif %}
+
+
+      <!-- Projects -->
+      {% set projects = projects.projects %}
+      {% set numberOfProjects = projects.total() %}
+      <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-{{(numberOfProjects / 2) | round(0, 'ceil')}} large-up-{{numberOfProjects}} align-center align-middle">
+          
+      <!-- Project -->
       {% for project in projects %}
-      <div class="cell">
-        <div class="grid-x grid-padding-x grid-padding-y">
-          <div class="small-12 cell">
-
-            <a href="{{ project.url }}">
-            {% set image = project.image.one() %}
-        
-            <div class="light-gray-background-color">
-            {% switch image.aspectRatio %}
-            {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
-            <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
-            {% default %}
-            <div class="image--5-7" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
-            {% endswitch %}
-            </div>
+        <div class="cell {% if project.verticalAlign %}align-self-{{ project.verticalAlign }}{% else %}align-self-middle{% endif %}">
+          <div class="grid-x grid-padding-x grid-padding-y {% if project.horizontalAlign %}align-{{ project.horizontalAlign }}{% else %}align-center{% endif %}">
+            <div class="cell small-12 {% if project.size.value == 'small' %}medium-6{% elseif project.size.value == 'medium' %}medium-8{% elseif project.size.value == 'large' %}medium-10{% elseif project.size.value == 'full' %}medium-12{% else %}medium-12{% endif %}">
   
-            <h2 class="h6 margin-top-1 text-center">{{project.title}}</h2>
-            </a>
-
-
+              <a href="{{ project.url }}">
+                {% set image = project.image.one() %}
+            
+                <div class="light-gray-background-color">
+                {% switch image.aspectRatio %}
+                {% case "1-1" or "5-4" or "5-7" or "6-4" or "7-5" or "16-9" or "3-4" %}
+                <div class="image--{{image.aspectRatio}}" {% if image %}data-interchange="{% include "_includes/images/contained/"~image.aspectRatio~"/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+                {% default %}
+                <div class="image--5-7" {% if image %}data-interchange="{% include "_includes/images/contained/5-7/interchange-img-small-12-medium-6" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+                {% endswitch %}
+                </div>
+      
+                <h2 class="h6 margin-top-1 text-center">{{project.title}}</h2>
+              </a>
+  
+            </div>
           </div>
         </div>
-      </div>
       {% endfor %}
+      <!-- Project -->
       
+      </div>
+      <!-- Projects -->
+
+      </div>
     </div>
+    <!-- End Projects Row -->
+
     {% endfor %}
-    
-    </div>
-  </div>
 </div>
 
 <!-- End Layout -->

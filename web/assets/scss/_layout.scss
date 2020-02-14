@@ -525,10 +525,12 @@ transform: translate3d(0,calc(var(--shiftY) * -5%),0);
 */
 
 .contact {
+/*
   background-color: $black;
   color: $white;
   @include links($white, $secondary-color);
   transition: $primary-transition;
+*/
 }
 
 // 9. Hover Effect
@@ -573,6 +575,8 @@ width:auto;
   display: flex;
   justify-content: center;
   align-items: center;
+width: 100%;
+height: 100%;
 }
 
 .swiper-button-prev-test,
@@ -620,11 +624,14 @@ url('/assets/img/arrow-right@3x.png') 3x
   opacity: 0;
   transition: $primary-transition;
   display:none;
+  visibility: hidden;
 
   
   &.open {
     opacity: 1;
-    display:inline;
+    display:block;
+    visibility: visible;
+    animation: fade 1s;
   }
   
 }
@@ -634,12 +641,25 @@ url('/assets/img/arrow-right@3x.png') 3x
   position: relative;
   background: $white;
   opacity: 1;
-  transition: $primary-transition;
-  display:inline;
+  display:block;
+  visibility: visible;
+  animation: fade 1s;
   
   &.closed {
     opacity: 0;
+    transition: $primary-transition;
     display:none;
+    visibility: hidden;
   }
   
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
