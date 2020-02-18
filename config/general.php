@@ -81,7 +81,7 @@ return [
     'production' => [
 
         'siteUrl' => [
-            'default' => 'https://vanessacoyle-prod.frb.io',
+            'default' => 'https://vanessa-coyle.frb.io',
         ],
 
         'devMode' => false,
