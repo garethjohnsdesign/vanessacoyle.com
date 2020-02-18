@@ -38023,7 +38023,7 @@
 	Popper.Defaults = Defaults;
 
 	/**!
-	* tippy.js v5.2.0
+	* tippy.js v5.2.1
 	* (c) 2017-2020 atomiks
 	* MIT License
 	*/
@@ -38046,7 +38046,7 @@
 	  return _extends$1.apply(this, arguments);
 	}
 
-	var version = "5.2.0";
+	var version = "5.2.1";
 
 	/**
 	 * Triggers reflow
@@ -38583,7 +38583,6 @@
 	var isBrowser$1 = typeof window !== 'undefined' && typeof document !== 'undefined';
 	var ua = isBrowser$1 ? navigator.userAgent : '';
 	var isIE$1 = /MSIE |Trident\//.test(ua);
-	var isUCBrowser = /UCBrowser\//.test(ua);
 	var isIOS = isBrowser$1 && /iPhone|iPad|iPod/.test(navigator.platform);
 	function updateIOSClass(isAdd) {
 	  var shouldAdd = isAdd && isIOS && currentInput.isTouch;
@@ -38773,8 +38772,9 @@
 	 */
 
 	function updateTransitionEndListener(tooltip, action, listener) {
-	  var eventName = isUCBrowser && document.body.style.webkitTransition !== undefined ? 'webkitTransitionEnd' : 'transitionend';
-	  tooltip[action + 'EventListener'](eventName, listener);
+	  ['transitionend', 'webkitTransitionEnd'].forEach(function (event) {
+	    tooltip[action + 'EventListener'](event, listener);
+	  });
 	}
 	/**
 	 * Adds/removes theme from tooltip's classList
@@ -38925,8 +38925,9 @@
 	      instance.clearDelayTimeouts();
 	    }
 	  });
-	  popper.addEventListener('mouseleave', function () {
+	  popper.addEventListener('mouseleave', function (event) {
 	    if (instance.props.interactive && includes(instance.props.trigger, 'mouseenter')) {
+	      debouncedOnMouseMove(event);
 	      doc.addEventListener('mousemove', debouncedOnMouseMove);
 	    }
 	  });
@@ -39142,11 +39143,11 @@
 	          break;
 
 	        case 'focus':
-	          on(isIE$1 ? 'focusout' : 'blur', onBlur);
+	          on(isIE$1 ? 'focusout' : 'blur', onBlurOrFocusOut);
 	          break;
 
 	        case 'focusin':
-	          on('focusout', onBlur);
+	          on('focusout', onBlurOrFocusOut);
 	          break;
 	      }
 	    });
@@ -39217,7 +39218,7 @@
 	      return el === reference || el === popper;
 	    });
 
-	    if (isCursorOverReferenceOrPopper) {
+	    if (event.type === 'mousemove' && isCursorOverReferenceOrPopper) {
 	      return;
 	    }
 
@@ -39251,14 +39252,15 @@
 	      doc.body.addEventListener('mouseleave', scheduleHide);
 	      doc.addEventListener('mousemove', debouncedOnMouseMove);
 	      pushIfUnique(mouseMoveListeners, debouncedOnMouseMove);
+	      debouncedOnMouseMove(event);
 	      return;
 	    }
 
 	    scheduleHide(event);
 	  }
 
-	  function onBlur(event) {
-	    if (event.target !== getCurrentTarget()) {
+	  function onBlurOrFocusOut(event) {
+	    if (!includes(instance.props.trigger, 'focusin') && event.target !== getCurrentTarget()) {
 	      return;
 	    } // If focus was moved to within the popper
 
@@ -39730,7 +39732,7 @@
 	tippy.currentInput = currentInput;
 
 	/**!
-	* tippy.js v5.2.0
+	* tippy.js v5.2.1
 	* (c) 2017-2020 atomiks
 	* MIT License
 	*/
@@ -39807,7 +39809,7 @@
 	      // scroll for "vertical"
 
 
-	      if (getIsEnabled() && (getIsInitialBehavior() || instance.props.followCursor !== true)) {
+	      if (getIsEnabled() && getIsInitialBehavior()) {
 	        instance.popperInstance.disableEventListeners();
 	      }
 	    }
@@ -39848,7 +39850,6 @@
 	      var isCursorOverReference = closestCallback(event.target, function (el) {
 	        return el === reference;
 	      });
-	      var rect = reference.getBoundingClientRect();
 	      var followCursor = instance.props.followCursor;
 	      var isHorizontal = followCursor === 'horizontal';
 	      var isVertical = followCursor === 'vertical';
@@ -39872,6 +39873,7 @@
 	          clientWidth: 0,
 	          clientHeight: 0,
 	          getBoundingClientRect: function getBoundingClientRect() {
+	            var rect = reference.getBoundingClientRect();
 	            return {
 	              width: isVerticalPlacement ? size : 0,
 	              height: isVerticalPlacement ? 0 : size,
@@ -40039,7 +40041,7 @@
 
 	jquery(function() {
 	  AOS.init({ 
-	   offset: 64,
+	   offset: 32,
 	   easing: 'ease-in-out-quart', 
 	   duration: 600
 	   });   
