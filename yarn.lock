@@ -181,9 +181,9 @@ swup@^2.0.0, swup@^2.0.8:
     opencollective-postinstall "^2.0.2"
 
 tippy.js@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.2.0.tgz#5e5a13a196ad2e39c7ee6cac5bfdb0513e797501"
-  integrity sha512-bmZu+TP1Fs6+1cq0GI1lfS9R0QxXDthP45zNGSLLMY5p2uC8sODNL4TiUOhEG25q5upk5LUrTnCkc+Q3H2aZJQ==
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/tippy.js/-/tippy.js-5.2.1.tgz#e08d7332c103a15e427124d710d881fca82365d6"
+  integrity sha512-66UT6JRVn3dXNCORE+0UvUK3JZqV/VhLlU6HTDm3FmrweUUFUxUGvT8tUQ7ycMp+uhuLAwQw6dBabyC+iKf/MA==
   dependencies:
     popper.js "^1.16.0"
 
