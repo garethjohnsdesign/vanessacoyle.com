@@ -20,15 +20,15 @@
     <div class="small-12 medium-6 {% if projectCount > 2 %}xlarge-4{% else %}xlarge-6{% endif %} cell text-center">
       <a href="{{ project.url }}">
         {% set image = project.image.one() %}
-        <div class="light-gray-background-color testingcontainer">
-        <div class="margin-bottom-1 image--16-9" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
+        <div class="light-gray-background-color {% if project.videoPreview | length  %}testingcontainer{% endif %}">
+        <div class="image--16-9" {% if image %}data-interchange="{% include "_includes/images/contained/16-9/interchange-img-small-12-medium-4" %}" data-aos="fade-in" data-aos-delay="100"{% endif %}></div>
           {% if project.videoPreview %}
             <video playsinline autoplay muted loop class="video" poster="">
               <source src="{{ project.videoPreview }}" type="video/mp4">
             </video>
           {% endif %}
         </div>
-        <div class="text-center"><span class="">{{ project.title }}</span>{% if project.client %}<span class="dark-gray project__client padding-left-1">{{ project.client }}</span>{% endif %}</div>
+        <div class="margin-top-1 text-center"><span class="">{{ project.title }}</span>{% if project.client %}<span class="dark-gray project__client padding-left-1">{{ project.client }}</span>{% endif %}</div>
       </a>
     </div>
   {% endfor %}
