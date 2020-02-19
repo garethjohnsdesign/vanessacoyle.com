@@ -1,34 +1,27 @@
 {
-  "name": "garethjohnsdesign",
+  "name": "codekit-project",
   "version": "1.0.0",
-  "description": "Basic template for a new web project.",
-  "author": "Gareth Johns <info@garethjohnsdesign.com>",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately.",
+  "scripts": {},
+  "author": "",
   "license": "UNLICENSED",
-  "bugs": {
-    "email": "info@garethjohnsdesign.com"
-  },
+  "repository": {},
   "dependencies": {
     "@swup/body-class-plugin": "^1.0.1",
     "@swup/ga-plugin": "^1.0.1",
+    "@swup/head-plugin": "^1.0.2",
     "@swup/preload-plugin": "^1.0.3",
-    "@swup/scripts-plugin": "^1.0.1",
     "@swup/scroll-plugin": "^1.0.6",
     "aos": "^2.3.4",
     "foundation-sites": "^6.6.1",
-    "gsap": "^3.0.5",
-    "jquery": ">=3.0.0",
+    "jquery": "^3.4.1",
     "js-cookie": "^2.2.1",
-    "lg-autoplay": "^1.0.4",
     "lg-fullscreen": "^1.1.0",
     "lg-video": "^1.2.2",
     "lightgallery": "^1.6.12",
-    "motion-ui": "~2.0.0",
-    "package": "^1.0.1",
     "swiper": "^5.3.1",
     "swup": "^2.0.8",
-    "tippy.js": "^5.2.0",
-    "tornis": "^0.2.1",
+    "tippy.js": "^5.2.1",
     "what-input": "^5.2.6"
-  },
-  "private": true
+  }
 }

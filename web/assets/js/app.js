@@ -12,9 +12,8 @@ import "lg-video";
 import Swiper from 'swiper';
 import SwupBodyClassPlugin from "@swup/body-class-plugin";
 import SwupScrollPlugin from '@swup/scroll-plugin';
-import SwupGaPlugin from '@swup/ga-plugin';
+// import SwupGaPlugin from '@swup/ga-plugin';
 import SwupPreloadPlugin from '@swup/preload-plugin';
-import tippy, {followCursor} from 'tippy.js';
 
 
 
@@ -53,6 +52,7 @@ $(document).ready(function() {
 // 1. Text on Mouse Over
 // ---------------
 
+/*
 tippy('[data-tippy-content]', {
   followCursor: true,
   plugins: [followCursor],
@@ -60,6 +60,7 @@ tippy('[data-tippy-content]', {
   theme: 'custom',
   placement: 'top'
 })
+*/
   	
 
 // 4. Viewport Height Fix
@@ -97,7 +98,7 @@ window.addEventListener('load', AOS.refresh);
 // 5. Carousel
 // -----------
 
-$(document).ready(function () {
+
 
 //initialize swiper when document ready
 var mySwiper = new Swiper ('.swiper-container', {
@@ -120,7 +121,7 @@ navigation: {
 }
 
 
-})
+
 });
 
 // 6. Lightgallery
@@ -152,7 +153,7 @@ const options = {
   plugins: [
     new SwupPreloadPlugin(),
     new SwupBodyClassPlugin(),
-    new SwupGaPlugin(),
+//     new SwupGaPlugin(),
     new SwupScrollPlugin({
         doScrollingRightAway: false,
         animateScroll: true,
