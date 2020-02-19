@@ -35093,6 +35093,73 @@
 
 	var SwupScrollPlugin = unwrapExports(lib$4);
 
+	var lib$5 = createCommonjsModule(function (module, exports) {
+
+	Object.defineProperty(exports, "__esModule", {
+	    value: true
+	});
+
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+
+
+	var _plugin2 = _interopRequireDefault(lib$1);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+	var GaPlugin = function (_Plugin) {
+	    _inherits(GaPlugin, _Plugin);
+
+	    function GaPlugin() {
+	        var _ref;
+
+	        var _temp, _this, _ret;
+
+	        _classCallCheck(this, GaPlugin);
+
+	        for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+	            args[_key] = arguments[_key];
+	        }
+
+	        return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = GaPlugin.__proto__ || Object.getPrototypeOf(GaPlugin)).call.apply(_ref, [this].concat(args))), _this), _this.name = "GaPlugin", _temp), _possibleConstructorReturn(_this, _ret);
+	    }
+
+	    _createClass(GaPlugin, [{
+	        key: 'mount',
+	        value: function mount() {
+	            var _this2 = this;
+
+	            this.swup.on('contentReplaced', function (event) {
+	                if (typeof window.ga === 'function') {
+	                    var title = document.title;
+	                    var url = window.location.pathname + window.location.search;
+
+	                    window.ga('set', 'title', title);
+	                    window.ga('set', 'page', url);
+	                    window.ga('send', 'pageview');
+
+	                    _this2.swup.log('GA pageview (url \'' + url + '\').');
+	                } else {
+	                    console.warn('GA is not loaded.');
+	                }
+	            });
+	        }
+	    }]);
+
+	    return GaPlugin;
+	}(_plugin2.default);
+
+	exports.default = GaPlugin;
+	});
+
+	var SwupGaPlugin = unwrapExports(lib$5);
+
 	var DOCUMENT_NODE_TYPE$1 = 9;
 
 	/**
@@ -35204,7 +35271,7 @@
 
 	var delegate_1$1 = delegate$1;
 
-	var lib$5 = createCommonjsModule(function (module, exports) {
+	var lib$6 = createCommonjsModule(function (module, exports) {
 
 	Object.defineProperty(exports, "__esModule", {
 	    value: true
@@ -35339,7 +35406,7 @@
 	exports.default = PreloadPlugin;
 	});
 
-	var SwupPreloadPlugin = unwrapExports(lib$5);
+	var SwupPreloadPlugin = unwrapExports(lib$6);
 
 	// 1. Imports
 
@@ -35426,7 +35493,7 @@
 	// 5. Carousel
 	// -----------
 
-
+	jquery(document).ready(function () {
 
 	//initialize swiper when document ready
 	var mySwiper = new Swiper ('.swiper-container', {
@@ -35449,7 +35516,7 @@
 	}
 
 
-
+	});
 	});
 
 	// 6. Lightgallery
@@ -35481,7 +35548,7 @@
 	  plugins: [
 	    new SwupPreloadPlugin(),
 	    new SwupBodyClassPlugin(),
-	//     new SwupGaPlugin(),
+	    new SwupGaPlugin(),
 	    new SwupScrollPlugin({
 	        doScrollingRightAway: false,
 	        animateScroll: true,
